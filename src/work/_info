@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/hellowhandsome/uart-banner/src
 vbcd2sseg_active_low
-Z1 !s110 1746500601
+Z1 !s110 1746501972
 !i10b 1
 !s100 ^?Sdc>Zm`PoO=F5A3`nNi0
 Ig<[g?[HclTDBbeC59kB[93
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/hellowhandsome/testing/src
-Z4 w1746472544
+Z3 dC:/Users/user1111/Documents/DigitalDesign/temporary/src
+Z4 w1746501329
 8bcd2sseg_active_low.v
 Fbcd2sseg_active_low.v
 L0 3
@@ -23,7 +23,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1746500601.000000
+Z6 !s108 1746501972.000000
 Z7 !s107 design.v|bin2bcd.v|bcd2sseg_active_low.v|top.v|uart\fifo.v|uart\m_counter.v|uart\uart_tx.v|uart\division.v|uart\uart_rx.v|uart/uart.v|bcd_shift_register.v|clk_div_26bit.v|tb.v|
 Z8 !s90 -reportprogress|300|-work|work|tb.v|
 !i113 1
@@ -57,7 +57,7 @@ R1
 IL3mb[DM8WzW4FI5:mOQ:T1
 R2
 R3
-w1746493367
+R4
 8bin2bcd.v
 Fbin2bcd.v
 L0 3
@@ -99,9 +99,9 @@ R1
 I@T<f_>T]`FTnz66kd]3ZL2
 R2
 R3
-Z11 w1746500566
-Z12 8tb.v
-Z13 Ftb.v
+R4
+Z11 8tb.v
+Z12 Ftb.v
 L0 7
 R5
 r1
@@ -162,7 +162,7 @@ R1
 I5QV=NLQO3ab@_19UmUQY91
 R2
 R3
-w1746478716
+R4
 8design.v
 Fdesign.v
 L0 3
@@ -198,7 +198,7 @@ R8
 R9
 R10
 vserial2parallel
-Z14 !s110 1745521064
+Z13 !s110 1745521064
 !i10b 1
 !s100 8]`6jaMY8DYhC6kbXUo1@3
 IGAiC>SBXADX6g=QlT;:9O3
@@ -212,14 +212,14 @@ R5
 r1
 !s85 0
 31
-Z15 !s108 1745521063.000000
-Z16 !s107 serial2parallel.v|signal_decoder.v|bcd2sseg_active_low.v|top.v|uart\fifo.v|uart\m_counter.v|uart\uart_tx.v|uart\division.v|uart\uart_rx.v|uart/uart.v|bcd_shift_register.v|clk_div_26bit.v|tb.v|
+Z14 !s108 1745521063.000000
+Z15 !s107 serial2parallel.v|signal_decoder.v|bcd2sseg_active_low.v|top.v|uart\fifo.v|uart\m_counter.v|uart\uart_tx.v|uart\division.v|uart\uart_rx.v|uart/uart.v|bcd_shift_register.v|clk_div_26bit.v|tb.v|
 R8
 !i113 1
 R9
 R10
 vsignal_decoder
-R14
+R13
 !i10b 1
 !s100 aZ05L78J`o=ddH4J@g8380
 I>j<hSU;bgMkZI4?7L_dh<3
@@ -233,8 +233,8 @@ R5
 r1
 !s85 0
 31
+R14
 R15
-R16
 R8
 !i113 1
 R9
@@ -246,9 +246,9 @@ R1
 IUabU30GO0G=jb5o3Y@eaO0
 R2
 R3
+R4
 R11
 R12
-R13
 L0 18
 R5
 r1
@@ -263,11 +263,11 @@ R10
 vtop
 R1
 !i10b 1
-!s100 1ZcONVn4mAlTL52g0eg810
-IenOzOzc5PmAm1FiT1`__21
+!s100 7H5^?Jg=e8ERc=KciAKTQ0
+Ie;gj0SPOn8PK3KS^d5E>d1
 R2
 R3
-w1746500531
+w1746501963
 8top.v
 Ftop.v
 L0 5
@@ -288,7 +288,7 @@ R1
 I0b=9g5KIe=AK]ij3Q_M?O1
 R2
 R3
-w1746488832
+R4
 8uart/uart.v
 Fuart/uart.v
 L0 7
@@ -309,7 +309,7 @@ R1
 I8SIiC7J>oQICYC]ZNoX;^0
 R2
 R3
-w1746488842
+R4
 8uart\uart_rx.v
 Fuart\uart_rx.v
 L0 4

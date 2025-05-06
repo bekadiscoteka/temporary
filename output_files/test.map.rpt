@@ -1,6 +1,6 @@
 Analysis & Synthesis report for test
-Tue May  6 07:41:31 2025
-Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Tue May  6 09:34:01 2025
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
 ---------------------
@@ -55,43 +55,43 @@ Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2025  Altera Corporation. All rights reserved.
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus Prime License Agreement,
-the Altera IP License Agreement, or other applicable license
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
-Altera and sold by Altera or its authorized distributors.  Please
-refer to the Altera Software License Subscription Agreements 
-on the Quartus Prime software download page.
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
-+--------------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                         ;
-+------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue May  6 07:41:30 2025           ;
-; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
-; Revision Name                      ; test                                            ;
-; Top-level Entity Name              ; top                                             ;
-; Family                             ; MAX 10                                          ;
-; Total logic elements               ; 746                                             ;
-;     Total combinational functions  ; 611                                             ;
-;     Dedicated logic registers      ; 468                                             ;
-; Total registers                    ; 468                                             ;
-; Total pins                         ; 54                                              ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0                                               ;
-; Embedded Multiplier 9-bit elements ; 1                                               ;
-; Total PLLs                         ; 0                                               ;
-; UFM blocks                         ; 0                                               ;
-; ADC blocks                         ; 0                                               ;
-+------------------------------------+-------------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue May  6 09:34:01 2025          ;
+; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
+; Revision Name                      ; test                                           ;
+; Top-level Entity Name              ; top                                            ;
+; Family                             ; MAX 10                                         ;
+; Total logic elements               ; 742                                            ;
+;     Total combinational functions  ; 607                                            ;
+;     Dedicated logic registers      ; 468                                            ;
+; Total registers                    ; 468                                            ;
+; Total pins                         ; 54                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 1                                              ;
+; Total PLLs                         ; 0                                              ;
+; UFM blocks                         ; 0                                              ;
+; ADC blocks                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------+
@@ -185,48 +185,45 @@ on the Quartus Prime software download page.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
 ;     Processor 3            ;   0.0%      ;
 ;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                              ;
-+----------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------+---------+
-; File Name with User-Entered Path             ; Used in Netlist ; File Type                    ; File Name with Absolute Path                              ; Library ;
-+----------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------+---------+
-; src/uart/uart_tx.v                           ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/testing/src/uart/uart_tx.v              ;         ;
-; src/uart/uart_rx.v                           ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/testing/src/uart/uart_rx.v              ;         ;
-; src/uart/uart.v                              ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/testing/src/uart/uart.v                 ;         ;
-; src/uart/m_counter.v                         ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/testing/src/uart/m_counter.v            ;         ;
-; src/uart/fifo.v                              ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/testing/src/uart/fifo.v                 ;         ;
-; src/uart/division.v                          ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/testing/src/uart/division.v             ;         ;
-; ../madjfks/src/top.v                         ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/madjfks/src/top.v                       ;         ;
-; ../madjfks/src/design.v                      ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/madjfks/src/design.v                    ;         ;
-; ../madjfks/src/bin2bcd.v                     ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/madjfks/src/bin2bcd.v                   ;         ;
-; ../madjfks/src/bcd2sseg_active_low.v         ; yes             ; User Verilog HDL File        ; C:/hellowhandsome/madjfks/src/bcd2sseg_active_low.v       ;         ;
-; /hellowhandsome/madjfks/src/uart/m_counter.v ; yes             ; Auto-Found Verilog HDL File  ; /hellowhandsome/madjfks/src/uart/m_counter.v              ;         ;
-; /hellowhandsome/madjfks/src/uart/uart.v      ; yes             ; Auto-Found Verilog HDL File  ; /hellowhandsome/madjfks/src/uart/uart.v                   ;         ;
-; /hellowhandsome/madjfks/src/uart/uart_tx.v   ; yes             ; Auto-Found Verilog HDL File  ; /hellowhandsome/madjfks/src/uart/uart_tx.v                ;         ;
-; /hellowhandsome/madjfks/src/uart/uart_rx.v   ; yes             ; Auto-Found Verilog HDL File  ; /hellowhandsome/madjfks/src/uart/uart_rx.v                ;         ;
-; /hellowhandsome/madjfks/src/uart/fifo.v      ; yes             ; Auto-Found Verilog HDL File  ; /hellowhandsome/madjfks/src/uart/fifo.v                   ;         ;
-; lpm_mult.tdf                                 ; yes             ; Megafunction                 ; b:/bekzat/quartus/libraries/megafunctions/lpm_mult.tdf    ;         ;
-; aglobal241.inc                               ; yes             ; Megafunction                 ; b:/bekzat/quartus/libraries/megafunctions/aglobal241.inc  ;         ;
-; lpm_add_sub.inc                              ; yes             ; Megafunction                 ; b:/bekzat/quartus/libraries/megafunctions/lpm_add_sub.inc ;         ;
-; multcore.inc                                 ; yes             ; Megafunction                 ; b:/bekzat/quartus/libraries/megafunctions/multcore.inc    ;         ;
-; bypassff.inc                                 ; yes             ; Megafunction                 ; b:/bekzat/quartus/libraries/megafunctions/bypassff.inc    ;         ;
-; altshift.inc                                 ; yes             ; Megafunction                 ; b:/bekzat/quartus/libraries/megafunctions/altshift.inc    ;         ;
-; db/mult_jds.tdf                              ; yes             ; Auto-Generated Megafunction  ; C:/hellowhandsome/testing/db/mult_jds.tdf                 ;         ;
-+----------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                      ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                  ; Library ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
+; src/top.v                        ; yes             ; User Verilog HDL File        ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v                 ;         ;
+; src/uart/uart_tx.v               ; yes             ; User Verilog HDL File        ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_tx.v        ;         ;
+; src/uart/uart_rx.v               ; yes             ; User Verilog HDL File        ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v        ;         ;
+; src/uart/uart.v                  ; yes             ; User Verilog HDL File        ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart.v           ;         ;
+; src/uart/m_counter.v             ; yes             ; User Verilog HDL File        ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/m_counter.v      ;         ;
+; src/uart/fifo.v                  ; yes             ; User Verilog HDL File        ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v           ;         ;
+; src/uart/division.v              ; yes             ; User Verilog HDL File        ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/division.v       ;         ;
+; src/bcd2sseg_active_low.v        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/bcd2sseg_active_low.v ;         ;
+; src/bin2bcd.v                    ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v             ;         ;
+; src/design.v                     ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/user1111/Documents/DigitalDesign/temporary/src/design.v              ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/intelfpga/23.1std/quartus/libraries/megafunctions/lpm_mult.tdf             ;         ;
+; aglobal231.inc                   ; yes             ; Megafunction                 ; c:/intelfpga/23.1std/quartus/libraries/megafunctions/aglobal231.inc           ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/intelfpga/23.1std/quartus/libraries/megafunctions/lpm_add_sub.inc          ;         ;
+; multcore.inc                     ; yes             ; Megafunction                 ; c:/intelfpga/23.1std/quartus/libraries/megafunctions/multcore.inc             ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; c:/intelfpga/23.1std/quartus/libraries/megafunctions/bypassff.inc             ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; c:/intelfpga/23.1std/quartus/libraries/megafunctions/altshift.inc             ;         ;
+; db/mult_jds.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/user1111/Documents/DigitalDesign/temporary/db/mult_jds.tdf           ;         ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -234,16 +231,16 @@ on the Quartus Prime software download page.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 746       ;
+; Estimated Total logic elements              ; 742       ;
 ;                                             ;           ;
-; Total combinational functions               ; 611       ;
+; Total combinational functions               ; 607       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 328       ;
-;     -- 3 input functions                    ; 122       ;
-;     -- <=2 input functions                  ; 161       ;
+;     -- 4 input functions                    ; 327       ;
+;     -- 3 input functions                    ; 121       ;
+;     -- <=2 input functions                  ; 159       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 491       ;
+;     -- normal mode                          ; 487       ;
 ;     -- arithmetic mode                      ; 120       ;
 ;                                             ;           ;
 ; Total registers                             ; 468       ;
@@ -256,7 +253,7 @@ on the Quartus Prime software download page.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 468       ;
-; Total fan-out                               ; 3737      ;
+; Total fan-out                               ; 3727      ;
 ; Average fan-out                             ; 3.14      ;
 +---------------------------------------------+-----------+
 
@@ -266,7 +263,7 @@ on the Quartus Prime software download page.
 +-------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node          ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                            ; Entity Name         ; Library Name ;
 +-------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------------------------------------------------+---------------------+--------------+
-; |top                                ; 611 (56)            ; 468 (35)                  ; 0           ; 0          ; 1            ; 1       ; 0         ; 54   ; 0            ; 0          ; |top                                                           ; top                 ; work         ;
+; |top                                ; 607 (52)            ; 468 (35)                  ; 0           ; 0          ; 1            ; 1       ; 0         ; 54   ; 0            ; 0          ; |top                                                           ; top                 ; work         ;
 ;    |bcd2sseg_active_low:bcd2ssg|    ; 28 (28)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|bcd2sseg_active_low:bcd2ssg                               ; bcd2sseg_active_low ; work         ;
 ;    |bin2bcd:conv|                   ; 73 (73)             ; 40 (40)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|bin2bcd:conv                                              ; bin2bcd             ; work         ;
 ;    |math_expression:me|             ; 54 (54)             ; 60 (60)                   ; 0           ; 0          ; 1            ; 1       ; 0         ; 0    ; 0            ; 0          ; |top|math_expression:me                                        ; math_expression     ; work         ;
@@ -395,9 +392,8 @@ Encoding Type:  One-Hot
 ; enable[0]                                          ; enable[0]           ; yes                    ;
 ; enable[1]                                          ; enable[0]           ; yes                    ;
 ; enable[2]                                          ; enable[0]           ; yes                    ;
-; enable[3]                                          ; enable[0]           ; yes                    ;
 ; state                                              ; state               ; yes                    ;
-; Number of user-specified and inferred latches = 6  ;                     ;                        ;
+; Number of user-specified and inferred latches = 5  ;                     ;                        ;
 +----------------------------------------------------+---------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -484,7 +480,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 344   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 310   ;
+; Number of registers using Clock Enable       ; 311   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -522,12 +518,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; 8:1                ; 4 bits    ; 20 LEs        ; 4 LEs                ; 16 LEs                 ; Yes        ; |top|uart:uart_inst|uart_tx:tx_inst|n[1]                        ;
 ; 9:1                ; 5 bits    ; 30 LEs        ; 5 LEs                ; 25 LEs                 ; Yes        ; |top|uart:uart_inst|uart_rx:rx_inst|s_operate_reg[4]            ;
 ; 3:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |top|bin2bcd:conv|bin_reg[2]                                    ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |top|enable[0]                                                  ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |top|enable[1]                                                  ;
 ; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; No         ; |top|uart:uart_inst|fifo:tx_fifo|Selector4                      ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; No         ; |top|uart:uart_inst|uart_rx:rx_inst|baund_detect_state          ;
 ; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |top|uart:uart_inst|uart_tx:tx_inst|Selector23                  ;
 ; 7:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |top|uart:uart_inst|fifo:rx_fifo|Selector5                      ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |top|uart:uart_inst|uart_tx:tx_inst|Selector20                  ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |top|uart:uart_inst|uart_tx:tx_inst|Selector22                  ;
 ; 9:1                ; 4 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; No         ; |top|uart:uart_inst|uart_rx:rx_inst|operate_state               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
 
@@ -773,27 +769,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; boundary_port         ; 54                          ;
 ; cycloneiii_ff         ; 468                         ;
-;     CLR               ; 98                          ;
+;     CLR               ; 97                          ;
 ;     ENA               ; 64                          ;
-;     ENA CLR           ; 210                         ;
+;     ENA CLR           ; 211                         ;
 ;     ENA CLR SCLR      ; 36                          ;
 ;     SCLR              ; 30                          ;
 ;     plain             ; 30                          ;
-; cycloneiii_lcell_comb ; 618                         ;
+; cycloneiii_lcell_comb ; 614                         ;
 ;     arith             ; 120                         ;
 ;         2 data inputs ; 106                         ;
 ;         3 data inputs ; 14                          ;
-;     normal            ; 498                         ;
+;     normal            ; 494                         ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 23                          ;
-;         2 data inputs ; 38                          ;
-;         3 data inputs ; 108                         ;
-;         4 data inputs ; 328                         ;
+;         2 data inputs ; 36                          ;
+;         3 data inputs ; 107                         ;
+;         4 data inputs ; 327                         ;
 ; cycloneiii_mac_mult   ; 1                           ;
 ; cycloneiii_mac_out    ; 1                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 6.00                        ;
-; Average LUT depth     ; 2.90                        ;
+; Max LUT depth         ; 7.00                        ;
+; Average LUT depth     ; 2.98                        ;
 +-----------------------+-----------------------------+
 
 
@@ -802,7 +798,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -811,99 +807,98 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-    Info: Processing started: Tue May  6 07:40:32 2025
+    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+    Info: Processing started: Tue May  6 09:33:51 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off test -c test
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file src/uart/uart_tx.v
-    Info (12023): Found entity 1: uart_tx File: C:/hellowhandsome/testing/src/uart/uart_tx.v Line: 3
-Info (12021): Found 2 design units, including 2 entities, in source file src/uart/uart_rx.v
-    Info (12023): Found entity 1: division File: C:/hellowhandsome/testing/src/uart/division.v Line: 7
-    Info (12023): Found entity 2: uart_rx File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 4
-Info (12021): Found 3 design units, including 3 entities, in source file src/uart/uart.v
-    Info (12023): Found entity 1: rx_specific_counter File: C:/hellowhandsome/testing/src/uart/m_counter.v Line: 3
-    Info (12023): Found entity 2: fifo File: C:/hellowhandsome/testing/src/uart/fifo.v Line: 4
-    Info (12023): Found entity 3: uart File: C:/hellowhandsome/testing/src/uart/uart.v Line: 7
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 10 design units, including 10 entities, in source file src/top.v
+    Info (12023): Found entity 1: division File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/division.v Line: 7
+    Info (12023): Found entity 2: uart_rx File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 4
+    Info (12023): Found entity 3: uart_tx File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_tx.v Line: 3
+    Info (12023): Found entity 4: rx_specific_counter File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/m_counter.v Line: 3
+    Info (12023): Found entity 5: fifo File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 4
+    Info (12023): Found entity 6: uart File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart.v Line: 7
+    Info (12023): Found entity 7: bcd2sseg_active_low File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bcd2sseg_active_low.v Line: 3
+    Info (12023): Found entity 8: bin2bcd File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 3
+    Info (12023): Found entity 9: math_expression File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/design.v Line: 3
+    Info (12023): Found entity 10: top File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 5
+Info (12021): Found 0 design units, including 0 entities, in source file src/uart/uart_tx.v
+Info (12021): Found 0 design units, including 0 entities, in source file src/uart/uart_rx.v
+Info (12021): Found 0 design units, including 0 entities, in source file src/uart/uart.v
 Info (12021): Found 0 design units, including 0 entities, in source file src/uart/m_counter.v
 Info (12021): Found 0 design units, including 0 entities, in source file src/uart/fifo.v
 Info (12021): Found 0 design units, including 0 entities, in source file src/uart/division.v
-Info (12021): Found 4 design units, including 4 entities, in source file /hellowhandsome/madjfks/src/top.v
-    Info (12023): Found entity 1: bcd2sseg_active_low File: C:/hellowhandsome/madjfks/src/bcd2sseg_active_low.v Line: 3
-    Info (12023): Found entity 2: bin2bcd File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 3
-    Info (12023): Found entity 3: math_expression File: C:/hellowhandsome/madjfks/src/design.v Line: 3
-    Info (12023): Found entity 4: top File: C:/hellowhandsome/madjfks/src/top.v Line: 5
-Info (12021): Found 1 design units, including 1 entities, in source file /hellowhandsome/madjfks/src/signal_decoder.v
-    Info (12023): Found entity 1: signal_decoder File: C:/hellowhandsome/madjfks/src/signal_decoder.v Line: 3
-Info (12021): Found 0 design units, including 0 entities, in source file /hellowhandsome/madjfks/src/design.v
-Info (12021): Found 0 design units, including 0 entities, in source file /hellowhandsome/madjfks/src/bin2bcd.v
-Info (12021): Found 0 design units, including 0 entities, in source file /hellowhandsome/madjfks/src/bcd2sseg_active_low.v
+Warning (12019): Can't analyze file -- file ../madjfks/src/signal_decoder.v is missing
+Warning (12019): Can't analyze file -- file ../madjfks/src/design.v is missing
+Warning (12019): Can't analyze file -- file ../madjfks/src/bin2bcd.v is missing
+Warning (12019): Can't analyze file -- file ../madjfks/src/bcd2sseg_active_low.v is missing
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at top.v(53): truncated value with size 32 to match size of target (1) File: C:/hellowhandsome/madjfks/src/top.v Line: 53
-Warning (10230): Verilog HDL assignment warning at top.v(62): truncated value with size 32 to match size of target (1) File: C:/hellowhandsome/madjfks/src/top.v Line: 62
-Warning (10240): Verilog HDL Always Construct warning at top.v(42): inferring latch(es) for variable "enable", which holds its previous value in one or more paths through the always construct File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Warning (10240): Verilog HDL Always Construct warning at top.v(42): inferring latch(es) for variable "state", which holds its previous value in one or more paths through the always construct File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Warning (10240): Verilog HDL Always Construct warning at top.v(42): inferring latch(es) for variable "start", which holds its previous value in one or more paths through the always construct File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Warning (10230): Verilog HDL assignment warning at top.v(87): truncated value with size 32 to match size of target (4) File: C:/hellowhandsome/madjfks/src/top.v Line: 87
-Warning (10230): Verilog HDL assignment warning at top.v(96): truncated value with size 32 to match size of target (4) File: C:/hellowhandsome/madjfks/src/top.v Line: 96
-Warning (10230): Verilog HDL assignment warning at top.v(105): truncated value with size 32 to match size of target (4) File: C:/hellowhandsome/madjfks/src/top.v Line: 105
-Warning (10230): Verilog HDL assignment warning at top.v(114): truncated value with size 32 to match size of target (4) File: C:/hellowhandsome/madjfks/src/top.v Line: 114
-Warning (10240): Verilog HDL Always Construct warning at top.v(156): inferring latch(es) for variable "bcd5", which holds its previous value in one or more paths through the always construct File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Warning (10240): Verilog HDL Always Construct warning at top.v(156): inferring latch(es) for variable "bcd4", which holds its previous value in one or more paths through the always construct File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Warning (10240): Verilog HDL Always Construct warning at top.v(156): inferring latch(es) for variable "sseg5", which holds its previous value in one or more paths through the always construct File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "sseg5[0]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "sseg5[1]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "sseg5[2]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "sseg5[3]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "sseg5[4]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "sseg5[5]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "sseg5[6]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "sseg5[7]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "bcd4[0]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "bcd4[1]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "bcd4[2]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "bcd4[3]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "bcd5[0]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "bcd5[1]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "bcd5[2]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "bcd5[3]" at top.v(156) File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-Info (10041): Inferred latch for "start" at top.v(42) File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Info (10041): Inferred latch for "state" at top.v(42) File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Info (10041): Inferred latch for "enable[0]" at top.v(42) File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Info (10041): Inferred latch for "enable[1]" at top.v(42) File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Info (10041): Inferred latch for "enable[2]" at top.v(42) File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Info (10041): Inferred latch for "enable[3]" at top.v(42) File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Info (12128): Elaborating entity "uart" for hierarchy "uart:uart_inst" File: C:/hellowhandsome/madjfks/src/top.v Line: 35
-Info (12128): Elaborating entity "rx_specific_counter" for hierarchy "uart:uart_inst|rx_specific_counter:counter" File: C:/hellowhandsome/testing/src/uart/uart.v Line: 41
-Warning (10230): Verilog HDL assignment warning at m_counter.v(25): truncated value with size 32 to match size of target (16) File: C:/hellowhandsome/testing/src/uart/m_counter.v Line: 25
-Info (12128): Elaborating entity "fifo" for hierarchy "uart:uart_inst|fifo:tx_fifo" File: C:/hellowhandsome/testing/src/uart/uart.v Line: 52
-Info (12128): Elaborating entity "uart_rx" for hierarchy "uart:uart_inst|uart_rx:rx_inst" File: C:/hellowhandsome/testing/src/uart/uart.v Line: 75
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(57): truncated value with size 32 to match size of target (1) File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 57
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(82): truncated value with size 32 to match size of target (8) File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 82
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(85): truncated value with size 32 to match size of target (8) File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 85
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(94): truncated value with size 32 to match size of target (1) File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 94
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(115): truncated value with size 32 to match size of target (5) File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 115
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(125): truncated value with size 32 to match size of target (4) File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 125
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(127): truncated value with size 32 to match size of target (5) File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 127
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(136): truncated value with size 32 to match size of target (5) File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 136
-Info (12128): Elaborating entity "division" for hierarchy "uart:uart_inst|uart_rx:rx_inst|division:divide" File: C:/hellowhandsome/testing/src/uart/uart_rx.v Line: 42
-Warning (10230): Verilog HDL assignment warning at division.v(58): truncated value with size 32 to match size of target (10) File: C:/hellowhandsome/testing/src/uart/division.v Line: 58
-Info (12128): Elaborating entity "uart_tx" for hierarchy "uart:uart_inst|uart_tx:tx_inst" File: C:/hellowhandsome/testing/src/uart/uart.v Line: 85
-Warning (10230): Verilog HDL assignment warning at uart_tx.v(53): truncated value with size 32 to match size of target (5) File: C:/hellowhandsome/testing/src/uart/uart_tx.v Line: 53
-Warning (10230): Verilog HDL assignment warning at uart_tx.v(65): truncated value with size 32 to match size of target (4) File: C:/hellowhandsome/testing/src/uart/uart_tx.v Line: 65
-Warning (10230): Verilog HDL assignment warning at uart_tx.v(69): truncated value with size 32 to match size of target (5) File: C:/hellowhandsome/testing/src/uart/uart_tx.v Line: 69
-Warning (10230): Verilog HDL assignment warning at uart_tx.v(80): truncated value with size 32 to match size of target (5) File: C:/hellowhandsome/testing/src/uart/uart_tx.v Line: 80
-Info (12128): Elaborating entity "math_expression" for hierarchy "math_expression:me" File: C:/hellowhandsome/madjfks/src/top.v Line: 137
-Warning (10230): Verilog HDL assignment warning at design.v(68): truncated value with size 32 to match size of target (6) File: C:/hellowhandsome/madjfks/src/design.v Line: 68
-Info (12128): Elaborating entity "bin2bcd" for hierarchy "bin2bcd:conv" File: C:/hellowhandsome/madjfks/src/top.v Line: 154
-Warning (10230): Verilog HDL assignment warning at bin2bcd.v(49): truncated value with size 32 to match size of target (4) File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 49
-Info (12128): Elaborating entity "bcd2sseg_active_low" for hierarchy "bcd2sseg_active_low:bcd2ssg" File: C:/hellowhandsome/madjfks/src/top.v Line: 185
+Warning (10230): Verilog HDL assignment warning at top.v(53): truncated value with size 32 to match size of target (1) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 53
+Warning (10230): Verilog HDL assignment warning at top.v(62): truncated value with size 32 to match size of target (1) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 62
+Warning (10240): Verilog HDL Always Construct warning at top.v(42): inferring latch(es) for variable "enable", which holds its previous value in one or more paths through the always construct File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at top.v(42): inferring latch(es) for variable "state", which holds its previous value in one or more paths through the always construct File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at top.v(42): inferring latch(es) for variable "start", which holds its previous value in one or more paths through the always construct File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Warning (10230): Verilog HDL assignment warning at top.v(87): truncated value with size 32 to match size of target (4) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 87
+Warning (10230): Verilog HDL assignment warning at top.v(96): truncated value with size 32 to match size of target (4) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 96
+Warning (10230): Verilog HDL assignment warning at top.v(105): truncated value with size 32 to match size of target (4) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 105
+Warning (10230): Verilog HDL assignment warning at top.v(114): truncated value with size 32 to match size of target (4) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 114
+Warning (10240): Verilog HDL Always Construct warning at top.v(156): inferring latch(es) for variable "bcd5", which holds its previous value in one or more paths through the always construct File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Warning (10240): Verilog HDL Always Construct warning at top.v(156): inferring latch(es) for variable "bcd4", which holds its previous value in one or more paths through the always construct File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Warning (10240): Verilog HDL Always Construct warning at top.v(156): inferring latch(es) for variable "sseg5", which holds its previous value in one or more paths through the always construct File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "sseg5[0]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "sseg5[1]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "sseg5[2]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "sseg5[3]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "sseg5[4]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "sseg5[5]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "sseg5[6]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "sseg5[7]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "bcd4[0]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "bcd4[1]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "bcd4[2]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "bcd4[3]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "bcd5[0]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "bcd5[1]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "bcd5[2]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "bcd5[3]" at top.v(156) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+Info (10041): Inferred latch for "start" at top.v(42) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Info (10041): Inferred latch for "state" at top.v(42) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Info (10041): Inferred latch for "enable[0]" at top.v(42) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Info (10041): Inferred latch for "enable[1]" at top.v(42) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Info (10041): Inferred latch for "enable[2]" at top.v(42) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Info (10041): Inferred latch for "enable[3]" at top.v(42) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Info (12128): Elaborating entity "uart" for hierarchy "uart:uart_inst" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 35
+Info (12128): Elaborating entity "rx_specific_counter" for hierarchy "uart:uart_inst|rx_specific_counter:counter" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart.v Line: 41
+Warning (10230): Verilog HDL assignment warning at m_counter.v(25): truncated value with size 32 to match size of target (16) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/m_counter.v Line: 25
+Info (12128): Elaborating entity "fifo" for hierarchy "uart:uart_inst|fifo:tx_fifo" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart.v Line: 52
+Info (12128): Elaborating entity "uart_rx" for hierarchy "uart:uart_inst|uart_rx:rx_inst" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart.v Line: 75
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(57): truncated value with size 32 to match size of target (1) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 57
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(82): truncated value with size 32 to match size of target (8) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 82
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(85): truncated value with size 32 to match size of target (8) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 85
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(94): truncated value with size 32 to match size of target (1) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 94
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(115): truncated value with size 32 to match size of target (5) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 115
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(125): truncated value with size 32 to match size of target (4) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 125
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(127): truncated value with size 32 to match size of target (5) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 127
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(136): truncated value with size 32 to match size of target (5) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 136
+Info (12128): Elaborating entity "division" for hierarchy "uart:uart_inst|uart_rx:rx_inst|division:divide" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_rx.v Line: 42
+Warning (10230): Verilog HDL assignment warning at division.v(58): truncated value with size 32 to match size of target (10) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/division.v Line: 58
+Info (12128): Elaborating entity "uart_tx" for hierarchy "uart:uart_inst|uart_tx:tx_inst" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart.v Line: 85
+Warning (10230): Verilog HDL assignment warning at uart_tx.v(53): truncated value with size 32 to match size of target (5) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_tx.v Line: 53
+Warning (10230): Verilog HDL assignment warning at uart_tx.v(65): truncated value with size 32 to match size of target (4) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_tx.v Line: 65
+Warning (10230): Verilog HDL assignment warning at uart_tx.v(69): truncated value with size 32 to match size of target (5) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_tx.v Line: 69
+Warning (10230): Verilog HDL assignment warning at uart_tx.v(80): truncated value with size 32 to match size of target (5) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_tx.v Line: 80
+Info (12128): Elaborating entity "math_expression" for hierarchy "math_expression:me" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 137
+Warning (10230): Verilog HDL assignment warning at design.v(68): truncated value with size 32 to match size of target (6) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/design.v Line: 68
+Info (12128): Elaborating entity "bin2bcd" for hierarchy "bin2bcd:conv" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 154
+Warning (10230): Verilog HDL assignment warning at bin2bcd.v(49): truncated value with size 32 to match size of target (4) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 49
+Info (12128): Elaborating entity "bcd2sseg_active_low" for hierarchy "bcd2sseg_active_low:bcd2ssg" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 185
 Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276004): RAM logic "uart:uart_inst|fifo:rx_fifo|mem" is uninferred due to inappropriate RAM size File: C:/hellowhandsome/testing/src/uart/fifo.v Line: 24
+    Info (276004): RAM logic "uart:uart_inst|fifo:rx_fifo|mem" is uninferred due to inappropriate RAM size File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 24
 Info (278001): Inferred 1 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "math_expression:me|Mult0" File: C:/hellowhandsome/madjfks/src/design.v Line: 75
-Info (12130): Elaborated megafunction instantiation "math_expression:me|lpm_mult:Mult0" File: C:/hellowhandsome/madjfks/src/design.v Line: 75
-Info (12133): Instantiated megafunction "math_expression:me|lpm_mult:Mult0" with the following parameter: File: C:/hellowhandsome/madjfks/src/design.v Line: 75
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "math_expression:me|Mult0" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/design.v Line: 75
+Info (12130): Elaborated megafunction instantiation "math_expression:me|lpm_mult:Mult0" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/design.v Line: 75
+Info (12133): Instantiated megafunction "math_expression:me|lpm_mult:Mult0" with the following parameter: File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/design.v Line: 75
     Info (12134): Parameter "LPM_WIDTHA" = "6"
     Info (12134): Parameter "LPM_WIDTHB" = "5"
     Info (12134): Parameter "LPM_WIDTHP" = "11"
@@ -914,82 +909,80 @@ Info (12133): Instantiated megafunction "math_expression:me|lpm_mult:Mult0" with
     Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_jds.tdf
-    Info (12023): Found entity 1: mult_jds File: C:/hellowhandsome/testing/db/mult_jds.tdf Line: 29
+    Info (12023): Found entity 1: mult_jds File: C:/Users/user1111/Documents/DigitalDesign/temporary/db/mult_jds.tdf Line: 29
 Warning (12241): 5 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Warning (13012): Latch start has unsafe behavior File: C:/hellowhandsome/madjfks/src/top.v Line: 40
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal uart:uart_inst|fifo:rx_fifo|state.EMPTY File: C:/hellowhandsome/testing/src/uart/fifo.v Line: 19
-Warning (13012): Latch enable[0] has unsafe behavior File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable[1] File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Warning (13012): Latch enable[1] has unsafe behavior File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable[2] File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Warning (13012): Latch enable[2] has unsafe behavior File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable[3] File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-Warning (13012): Latch enable[3] has unsafe behavior File: C:/hellowhandsome/madjfks/src/top.v Line: 42
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal state File: C:/hellowhandsome/madjfks/src/top.v Line: 38
-Warning (13012): Latch state has unsafe behavior File: C:/hellowhandsome/madjfks/src/top.v Line: 38
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal state File: C:/hellowhandsome/madjfks/src/top.v Line: 38
-Info (13000): Registers with preset signals will power-up high File: C:/hellowhandsome/madjfks/src/top.v Line: 166
+Warning (13012): Latch start has unsafe behavior File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 40
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal uart:uart_inst|fifo:rx_fifo|state.EMPTY File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 19
+Warning (13012): Latch enable[0] has unsafe behavior File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable[1] File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Warning (13012): Latch enable[1] has unsafe behavior File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable[2] File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+Warning (13012): Latch enable[2] has unsafe behavior File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal state File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 38
+Warning (13012): Latch state has unsafe behavior File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 38
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal state File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 38
+Info (13000): Registers with preset signals will power-up high File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 166
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
-    Warning (13310): Register "bin2bcd:conv|bin_reg[15]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[15]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[14]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[14]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[13]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[13]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[12]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[12]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[11]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[11]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[10]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[10]~_emulated" and latch "bin2bcd:conv|bin_reg[10]~13" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[9]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[9]~_emulated" and latch "bin2bcd:conv|bin_reg[9]~17" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[8]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[8]~_emulated" and latch "bin2bcd:conv|bin_reg[8]~21" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[7]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[7]~_emulated" and latch "bin2bcd:conv|bin_reg[7]~25" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[6]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[6]~_emulated" and latch "bin2bcd:conv|bin_reg[6]~29" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[5]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[5]~_emulated" and latch "bin2bcd:conv|bin_reg[5]~33" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[4]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[4]~_emulated" and latch "bin2bcd:conv|bin_reg[4]~37" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[3]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[3]~_emulated" and latch "bin2bcd:conv|bin_reg[3]~41" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[2]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[2]~_emulated" and latch "bin2bcd:conv|bin_reg[2]~45" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[1]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[1]~_emulated" and latch "bin2bcd:conv|bin_reg[1]~49" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
-    Warning (13310): Register "bin2bcd:conv|bin_reg[0]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[0]~_emulated" and latch "bin2bcd:conv|bin_reg[0]~53" File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[15]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[15]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[14]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[14]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[13]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[13]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[12]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[12]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[11]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[11]~_emulated" and latch "bin2bcd:conv|bin_reg[15]~1" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[10]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[10]~_emulated" and latch "bin2bcd:conv|bin_reg[10]~13" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[9]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[9]~_emulated" and latch "bin2bcd:conv|bin_reg[9]~17" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[8]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[8]~_emulated" and latch "bin2bcd:conv|bin_reg[8]~21" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[7]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[7]~_emulated" and latch "bin2bcd:conv|bin_reg[7]~25" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[6]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[6]~_emulated" and latch "bin2bcd:conv|bin_reg[6]~29" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[5]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[5]~_emulated" and latch "bin2bcd:conv|bin_reg[5]~33" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[4]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[4]~_emulated" and latch "bin2bcd:conv|bin_reg[4]~37" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[3]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[3]~_emulated" and latch "bin2bcd:conv|bin_reg[3]~41" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[2]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[2]~_emulated" and latch "bin2bcd:conv|bin_reg[2]~45" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[1]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[1]~_emulated" and latch "bin2bcd:conv|bin_reg[1]~49" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
+    Warning (13310): Register "bin2bcd:conv|bin_reg[0]" is converted into an equivalent circuit using register "bin2bcd:conv|bin_reg[0]~_emulated" and latch "bin2bcd:conv|bin_reg[0]~53" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 34
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "sseg3[7]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 7
-    Warning (13410): Pin "sseg2[7]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 8
-    Warning (13410): Pin "sseg1[7]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 9
-    Warning (13410): Pin "sseg0[7]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 10
-    Warning (13410): Pin "sseg5[0]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-    Warning (13410): Pin "sseg5[1]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-    Warning (13410): Pin "sseg5[2]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-    Warning (13410): Pin "sseg5[3]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-    Warning (13410): Pin "sseg5[4]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-    Warning (13410): Pin "sseg5[5]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-    Warning (13410): Pin "sseg5[6]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-    Warning (13410): Pin "sseg5[7]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 156
-    Warning (13410): Pin "sseg4[0]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 166
-    Warning (13410): Pin "sseg4[1]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 166
-    Warning (13410): Pin "sseg4[2]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 166
-    Warning (13410): Pin "sseg4[3]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 166
-    Warning (13410): Pin "sseg4[4]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 166
-    Warning (13410): Pin "sseg4[5]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 166
-    Warning (13410): Pin "sseg4[7]" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 166
-    Warning (13410): Pin "tx" is stuck at VCC File: C:/hellowhandsome/madjfks/src/top.v Line: 13
+    Warning (13410): Pin "sseg3[7]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 7
+    Warning (13410): Pin "sseg2[7]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 8
+    Warning (13410): Pin "sseg1[7]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 9
+    Warning (13410): Pin "sseg0[7]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 10
+    Warning (13410): Pin "sseg5[0]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+    Warning (13410): Pin "sseg5[1]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+    Warning (13410): Pin "sseg5[2]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+    Warning (13410): Pin "sseg5[3]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+    Warning (13410): Pin "sseg5[4]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+    Warning (13410): Pin "sseg5[5]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+    Warning (13410): Pin "sseg5[6]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+    Warning (13410): Pin "sseg5[7]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 156
+    Warning (13410): Pin "sseg4[0]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 166
+    Warning (13410): Pin "sseg4[1]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 166
+    Warning (13410): Pin "sseg4[2]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 166
+    Warning (13410): Pin "sseg4[3]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 166
+    Warning (13410): Pin "sseg4[4]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 166
+    Warning (13410): Pin "sseg4[5]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 166
+    Warning (13410): Pin "sseg4[7]" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 166
+    Warning (13410): Pin "tx" is stuck at VCC File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 13
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Info (17016): Found the following redundant logic cells in design
-    Info (17048): Logic cell "math_expression:me|q[0]~31" File: C:/hellowhandsome/madjfks/src/design.v Line: 26
-Info (144001): Generated suppressed messages file C:/hellowhandsome/testing/output_files/test.map.smsg
+    Info (17048): Logic cell "math_expression:me|q[0]~31" File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/design.v Line: 26
+Info (144001): Generated suppressed messages file C:/Users/user1111/Documents/DigitalDesign/temporary/output_files/test.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 842 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 837 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 51 output pins
-    Info (21061): Implemented 787 logic cells
+    Info (21061): Implemented 782 logic cells
     Info (21062): Implemented 1 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 80 warnings
-    Info: Peak virtual memory: 4841 megabytes
-    Info: Processing ended: Tue May  6 07:41:31 2025
-    Info: Elapsed time: 00:00:59
-    Info: Total CPU time (on all processors): 00:01:14
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 82 warnings
+    Info: Peak virtual memory: 4792 megabytes
+    Info: Processing ended: Tue May  6 09:34:01 2025
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:23
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/hellowhandsome/testing/output_files/test.map.smsg.
+The suppressed messages can be found in C:/Users/user1111/Documents/DigitalDesign/temporary/output_files/test.map.smsg.
 
 

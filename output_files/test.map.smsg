@@ -1,5 +1,5 @@
-Info (10281): Verilog HDL Declaration information at uart_tx.v(10): object "start" differs only in case from object "START" in the same scope File: C:/hellowhandsome/testing/src/uart/uart_tx.v Line: 10
-Info (10281): Verilog HDL Declaration information at division.v(9): object "ready" differs only in case from object "READY" in the same scope File: C:/hellowhandsome/testing/src/uart/division.v Line: 9
-Info (10281): Verilog HDL Declaration information at fifo.v(10): object "empty" differs only in case from object "EMPTY" in the same scope File: C:/hellowhandsome/testing/src/uart/fifo.v Line: 10
-Info (10281): Verilog HDL Declaration information at fifo.v(10): object "full" differs only in case from object "FULL" in the same scope File: C:/hellowhandsome/testing/src/uart/fifo.v Line: 10
-Info (10281): Verilog HDL Declaration information at bin2bcd.v(8): object "ready" differs only in case from object "READY" in the same scope File: C:/hellowhandsome/madjfks/src/bin2bcd.v Line: 8
+Info (10281): Verilog HDL Declaration information at division.v(9): object "ready" differs only in case from object "READY" in the same scope File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/division.v Line: 9
+Info (10281): Verilog HDL Declaration information at uart_tx.v(10): object "start" differs only in case from object "START" in the same scope File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/uart_tx.v Line: 10
+Info (10281): Verilog HDL Declaration information at fifo.v(10): object "empty" differs only in case from object "EMPTY" in the same scope File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 10
+Info (10281): Verilog HDL Declaration information at fifo.v(10): object "full" differs only in case from object "FULL" in the same scope File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 10
+Info (10281): Verilog HDL Declaration information at bin2bcd.v(8): object "ready" differs only in case from object "READY" in the same scope File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/bin2bcd.v Line: 8

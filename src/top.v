@@ -50,14 +50,7 @@ module top(
 				start <= 0;
 				if (read) begin
 					enable <= 4'b0100;
-					state <= PROC;
-					if (ascii == 45) begin
-				   		temp <= 1;
-					end
-					else begin
-						a <= temp ? -(ascii - 48) : ascii - 48;
-						temp <= 0;
-					end	
+					state <= PROC;	
 				end
 			end
 			PROC: begin
@@ -86,16 +79,7 @@ module top(
 			temp <= 0;
 		end
 		else if (read) begin
-			if (enable[3]) begin
-				if (ascii == 45) begin
-				   	temp <= 1;
-				end
-				else begin
-					a <= temp ? -(ascii - 48) : ascii - 48;
-					temp <= 0;
-				end	
-			end
-			else if (enable[2]) begin
+			if (enable[2]) begin
 				if (ascii == 45) begin
 				   	temp <= 1;
 				end
@@ -121,6 +105,15 @@ module top(
 					d <= temp ? -(ascii - 48) : ascii - 48;
 					temp <= 0;
 				end	
+			end
+			else begin
+				if (ascii == 45) begin
+				   	temp <= 1;
+				end
+				else begin
+					a <= temp ? -(ascii - 48) : ascii - 48;
+					temp <= 0;
+				end
 			end
 		end
 	end
@@ -162,16 +155,18 @@ module top(
 	reg [15:0] bcd_set; 
 	always @(posedge clk, posedge reset) begin
 		if (reset) begin
-		   	bcd_set <= 0;
+		   bcd_set <= 0;
 			bcd5 <= 0;
 			bcd4 <= 0;
-			sseg4 <= 0;
+			sseg4 <= ~8'b0;
+			sseg5 <= ~8'b0;
+			ind <= 0;
 		end
 		else begin
 			if (done) begin
 				bcd_set <= {bcd3, bcd2, bcd1, bcd0};
-				ind <= 1;
 			end
+			if (start) ind <= 1;
 			if (valid) sseg4 <= q[11] ? 8'b10111111 : ~8'b0;
 		end
 	end
