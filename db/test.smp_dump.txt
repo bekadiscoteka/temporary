@@ -1,4 +1,11 @@
 
+State Machine - |top|state
+Name state.SET_D state.SET_C state.SET_B state.SET_A 
+state.SET_A 0 0 0 0 
+state.SET_B 0 0 1 1 
+state.SET_C 0 1 0 1 
+state.SET_D 1 0 0 1 
+
 State Machine - |top|bin2bcd:conv|state
 Name state.LAST state.FINISH state.PROC state.00 
 state.00 0 0 0 0 

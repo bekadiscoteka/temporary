@@ -1,6 +1,6 @@
 Fitter report for test
-Tue May  6 09:34:17 2025
-Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Tue May  6 15:52:45 2025
+Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
 ---------------------
@@ -51,45 +51,45 @@ Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2024  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel FPGA IP License Agreement, or other applicable license
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
-Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
 
 
 
-+-------------------------------------------------------------------------------------+
-; Fitter Summary                                                                      ;
-+------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Tue May  6 09:34:17 2025          ;
-; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
-; Revision Name                      ; test                                           ;
-; Top-level Entity Name              ; top                                            ;
-; Family                             ; MAX 10                                         ;
-; Device                             ; 10M50DAF484C7G                                 ;
-; Timing Models                      ; Final                                          ;
-; Total logic elements               ; 700 / 49,760 ( 1 % )                           ;
-;     Total combinational functions  ; 617 / 49,760 ( 1 % )                           ;
-;     Dedicated logic registers      ; 457 / 49,760 ( < 1 % )                         ;
-; Total registers                    ; 457                                            ;
-; Total pins                         ; 54 / 360 ( 15 % )                              ;
-; Total virtual pins                 ; 0                                              ;
-; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                          ;
-; Embedded Multiplier 9-bit elements ; 1 / 288 ( < 1 % )                              ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                                  ;
-; UFM blocks                         ; 0 / 1 ( 0 % )                                  ;
-; ADC blocks                         ; 0 / 2 ( 0 % )                                  ;
-+------------------------------------+------------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Fitter Summary                                                                       ;
++------------------------------------+-------------------------------------------------+
+; Fitter Status                      ; Successful - Tue May  6 15:52:45 2025           ;
+; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
+; Revision Name                      ; test                                            ;
+; Top-level Entity Name              ; top                                             ;
+; Family                             ; MAX 10                                          ;
+; Device                             ; 10M50DAF484C7G                                  ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 679 / 49,760 ( 1 % )                            ;
+;     Total combinational functions  ; 609 / 49,760 ( 1 % )                            ;
+;     Dedicated logic registers      ; 462 / 49,760 ( < 1 % )                          ;
+; Total registers                    ; 462                                             ;
+; Total pins                         ; 54 / 360 ( 15 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                           ;
+; Embedded Multiplier 9-bit elements ; 1 / 288 ( < 1 % )                               ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                                   ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                                   ;
++------------------------------------+-------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -154,19 +154,17 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.20        ;
-; Maximum used               ; 6           ;
+; Average used               ; 1.08        ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   4.2%      ;
-;     Processor 3            ;   4.0%      ;
-;     Processor 4            ;   4.0%      ;
-;     Processor 5            ;   4.0%      ;
-;     Processor 6            ;   3.9%      ;
+;     Processor 2            ;   2.8%      ;
+;     Processor 3            ;   2.8%      ;
+;     Processor 4            ;   2.8%      ;
 +----------------------------+-------------+
 
 
@@ -204,8 +202,8 @@ https://fpgasoftware.intel.com/eula.
 ; Type                ; Total [A + B]       ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+---------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                     ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 1207 ) ; 0.00 % ( 0 / 1207 )        ; 0.00 % ( 0 / 1207 )      ;
-;     -- Achieved     ; 0.00 % ( 0 / 1207 ) ; 0.00 % ( 0 / 1207 )        ; 0.00 % ( 0 / 1207 )      ;
+;     -- Requested    ; 0.00 % ( 0 / 1203 ) ; 0.00 % ( 0 / 1203 )        ; 0.00 % ( 0 / 1203 )      ;
+;     -- Achieved     ; 0.00 % ( 0 / 1203 ) ; 0.00 % ( 0 / 1203 )        ; 0.00 % ( 0 / 1203 )      ;
 ;                     ;                     ;                            ;                          ;
 ; Routing (by net)    ;                     ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )    ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -228,7 +226,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 1191 )   ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 1187 )   ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 16 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -236,7 +234,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/user1111/Documents/DigitalDesign/temporary/output_files/test.pin.
+The pin-out file can be found in C:/hellowhandsome/newproj/temporary/output_files/test.pin.
 
 
 +----------------------------------------------------------------------+
@@ -244,26 +242,26 @@ The pin-out file can be found in C:/Users/user1111/Documents/DigitalDesign/tempo
 +---------------------------------------------+------------------------+
 ; Resource                                    ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Total logic elements                        ; 700 / 49,760 ( 1 % )   ;
-;     -- Combinational with no register       ; 243                    ;
-;     -- Register only                        ; 83                     ;
-;     -- Combinational with a register        ; 374                    ;
+; Total logic elements                        ; 679 / 49,760 ( 1 % )   ;
+;     -- Combinational with no register       ; 217                    ;
+;     -- Register only                        ; 70                     ;
+;     -- Combinational with a register        ; 392                    ;
 ;                                             ;                        ;
 ; Logic element usage by number of LUT inputs ;                        ;
-;     -- 4 input functions                    ; 327                    ;
-;     -- 3 input functions                    ; 121                    ;
-;     -- <=2 input functions                  ; 169                    ;
-;     -- Register only                        ; 83                     ;
+;     -- 4 input functions                    ; 321                    ;
+;     -- 3 input functions                    ; 120                    ;
+;     -- <=2 input functions                  ; 168                    ;
+;     -- Register only                        ; 70                     ;
 ;                                             ;                        ;
 ; Logic elements by mode                      ;                        ;
-;     -- normal mode                          ; 497                    ;
+;     -- normal mode                          ; 489                    ;
 ;     -- arithmetic mode                      ; 120                    ;
 ;                                             ;                        ;
-; Total registers*                            ; 457 / 51,509 ( < 1 % ) ;
-;     -- Dedicated logic registers            ; 457 / 49,760 ( < 1 % ) ;
+; Total registers*                            ; 462 / 51,509 ( < 1 % ) ;
+;     -- Dedicated logic registers            ; 462 / 49,760 ( < 1 % ) ;
 ;     -- I/O registers                        ; 0 / 1,749 ( 0 % )      ;
 ;                                             ;                        ;
-; Total LABs:  partially or completely used   ; 57 / 3,110 ( 2 % )     ;
+; Total LABs:  partially or completely used   ; 51 / 3,110 ( 2 % )     ;
 ; Virtual pins                                ; 0                      ;
 ; I/O pins                                    ; 54 / 360 ( 15 % )      ;
 ;     -- Clock pins                           ; 2 / 8 ( 25 % )         ;
@@ -276,19 +274,19 @@ The pin-out file can be found in C:/Users/user1111/Documents/DigitalDesign/tempo
 ; Total block memory implementation bits      ; 0 / 1,677,312 ( 0 % )  ;
 ; Embedded Multiplier 9-bit elements          ; 1 / 288 ( < 1 % )      ;
 ; PLLs                                        ; 0 / 4 ( 0 % )          ;
-; Global signals                              ; 2                      ;
-;     -- Global clocks                        ; 2 / 20 ( 10 % )        ;
+; Global signals                              ; 1                      ;
+;     -- Global clocks                        ; 1 / 20 ( 5 % )         ;
 ; JTAGs                                       ; 0 / 1 ( 0 % )          ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )          ;
 ; Remote update blocks                        ; 0 / 1 ( 0 % )          ;
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )          ;
 ; Impedance control blocks                    ; 0 / 1 ( 0 % )          ;
-; Average interconnect usage (total/H/V)      ; 0.4% / 0.4% / 0.4%     ;
-; Peak interconnect usage (total/H/V)         ; 6.4% / 6.1% / 6.7%     ;
-; Maximum fan-out                             ; 435                    ;
-; Highest non-global fan-out                  ; 435                    ;
-; Total fan-out                               ; 3806                   ;
-; Average fan-out                             ; 2.96                   ;
+; Average interconnect usage (total/H/V)      ; 0.3% / 0.4% / 0.3%     ;
+; Peak interconnect usage (total/H/V)         ; 8.5% / 9.3% / 7.5%     ;
+; Maximum fan-out                             ; 463                    ;
+; Highest non-global fan-out                  ; 437                    ;
+; Total fan-out                               ; 3780                   ;
+; Average fan-out                             ; 2.99                   ;
 +---------------------------------------------+------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -301,33 +299,33 @@ The pin-out file can be found in C:/Users/user1111/Documents/DigitalDesign/tempo
 +---------------------------------------------+-----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                   ; Low                            ;
 ;                                             ;                       ;                                ;
-; Total logic elements                        ; 700 / 49760 ( 1 % )   ; 0 / 49760 ( 0 % )              ;
-;     -- Combinational with no register       ; 243                   ; 0                              ;
-;     -- Register only                        ; 83                    ; 0                              ;
-;     -- Combinational with a register        ; 374                   ; 0                              ;
+; Total logic elements                        ; 679 / 49760 ( 1 % )   ; 0 / 49760 ( 0 % )              ;
+;     -- Combinational with no register       ; 217                   ; 0                              ;
+;     -- Register only                        ; 70                    ; 0                              ;
+;     -- Combinational with a register        ; 392                   ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic element usage by number of LUT inputs ;                       ;                                ;
-;     -- 4 input functions                    ; 327                   ; 0                              ;
-;     -- 3 input functions                    ; 121                   ; 0                              ;
-;     -- <=2 input functions                  ; 169                   ; 0                              ;
-;     -- Register only                        ; 83                    ; 0                              ;
+;     -- 4 input functions                    ; 321                   ; 0                              ;
+;     -- 3 input functions                    ; 120                   ; 0                              ;
+;     -- <=2 input functions                  ; 168                   ; 0                              ;
+;     -- Register only                        ; 70                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic elements by mode                      ;                       ;                                ;
-;     -- normal mode                          ; 497                   ; 0                              ;
+;     -- normal mode                          ; 489                   ; 0                              ;
 ;     -- arithmetic mode                      ; 120                   ; 0                              ;
 ;                                             ;                       ;                                ;
-; Total registers                             ; 457                   ; 0                              ;
-;     -- Dedicated logic registers            ; 457 / 49760 ( < 1 % ) ; 0 / 49760 ( 0 % )              ;
+; Total registers                             ; 462                   ; 0                              ;
+;     -- Dedicated logic registers            ; 462 / 49760 ( < 1 % ) ; 0 / 49760 ( 0 % )              ;
 ;     -- I/O registers                        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
-; Total LABs:  partially or completely used   ; 57 / 3110 ( 2 % )     ; 0 / 3110 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 51 / 3110 ( 2 % )     ; 0 / 3110 ( 0 % )               ;
 ;                                             ;                       ;                                ;
 ; Virtual pins                                ; 0                     ; 0                              ;
 ; I/O pins                                    ; 54                    ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 1 / 288 ( < 1 % )     ; 0 / 288 ( 0 % )                ;
 ; Total memory bits                           ; 0                     ; 0                              ;
 ; Total RAM block bits                        ; 0                     ; 0                              ;
-; Clock control block                         ; 2 / 24 ( 8 % )        ; 0 / 24 ( 0 % )                 ;
+; Clock control block                         ; 1 / 24 ( 4 % )        ; 0 / 24 ( 0 % )                 ;
 ; User Flash Memory                           ; 1 / 1 ( 100 % )       ; 0 / 1 ( 0 % )                  ;
 ; Analog-to-Digital Converter                 ; 2 / 2 ( 100 % )       ; 0 / 2 ( 0 % )                  ;
 ;                                             ;                       ;                                ;
@@ -338,8 +336,8 @@ The pin-out file can be found in C:/Users/user1111/Documents/DigitalDesign/tempo
 ;     -- Registered Output Connections        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Internal Connections                        ;                       ;                                ;
-;     -- Total Connections                    ; 3829                  ; 8                              ;
-;     -- Registered Connections               ; 1528                  ; 0                              ;
+;     -- Total Connections                    ; 3803                  ; 8                              ;
+;     -- Registered Connections               ; 1563                  ; 0                              ;
 ;                                             ;                       ;                                ;
 ; External Connections                        ;                       ;                                ;
 ;     -- Top                                  ; 0                     ; 0                              ;
@@ -371,8 +369,8 @@ The pin-out file can be found in C:/Users/user1111/Documents/DigitalDesign/tempo
 +-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; Name  ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; clk   ; P11   ; 3        ; 34           ; 0            ; 28           ; 458                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; 0         ;
-; reset ; B14   ; 7        ; 56           ; 54           ; 0            ; 435                   ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
+; clk   ; P11   ; 3        ; 34           ; 0            ; 28           ; 463                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; 0         ;
+; reset ; B14   ; 7        ; 56           ; 54           ; 0            ; 437                   ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
 ; rx    ; V9    ; 3        ; 31           ; 0            ; 28           ; 4                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; 0         ;
 +-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
@@ -1027,17 +1025,17 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+----------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node          ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; ADC blocks ; Full Hierarchy Name                                            ; Entity Name         ; Library Name ;
 +-------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+----------------------------------------------------------------+---------------------+--------------+
-; |top                                ; 700 (77)    ; 457 (35)                  ; 0 (0)         ; 0           ; 0    ; 1          ; 1            ; 1       ; 0         ; 54   ; 0            ; 243 (43)     ; 83 (17)           ; 374 (10)         ; 0          ; |top                                                           ; top                 ; work         ;
+; |top                                ; 679 (67)    ; 462 (40)                  ; 0 (0)         ; 0           ; 0    ; 1          ; 1            ; 1       ; 0         ; 54   ; 0            ; 217 (28)     ; 70 (4)            ; 392 (17)         ; 0          ; |top                                                           ; top                 ; work         ;
 ;    |bcd2sseg_active_low:bcd2ssg|    ; 28 (28)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 17 (17)      ; 0 (0)             ; 11 (11)          ; 0          ; |top|bcd2sseg_active_low:bcd2ssg                               ; bcd2sseg_active_low ; work         ;
-;    |bin2bcd:conv|                   ; 74 (74)     ; 40 (40)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 32 (32)      ; 1 (1)             ; 41 (41)          ; 0          ; |top|bin2bcd:conv                                              ; bin2bcd             ; work         ;
-;    |math_expression:me|             ; 78 (78)     ; 49 (49)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 1            ; 1       ; 0         ; 0    ; 0            ; 27 (27)      ; 8 (8)             ; 43 (43)          ; 0          ; |top|math_expression:me                                        ; math_expression     ; work         ;
+;    |bin2bcd:conv|                   ; 73 (73)     ; 40 (40)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 31 (31)      ; 0 (0)             ; 42 (42)          ; 0          ; |top|bin2bcd:conv                                              ; bin2bcd             ; work         ;
+;    |math_expression:me|             ; 85 (85)     ; 49 (49)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 1            ; 1       ; 0         ; 0    ; 0            ; 24 (24)      ; 15 (15)           ; 46 (46)          ; 0          ; |top|math_expression:me                                        ; math_expression     ; work         ;
 ;       |lpm_mult:Mult0|              ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 1            ; 1       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0          ; |top|math_expression:me|lpm_mult:Mult0                         ; lpm_mult            ; work         ;
 ;          |mult_jds:auto_generated|  ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 1            ; 1       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0          ; |top|math_expression:me|lpm_mult:Mult0|mult_jds:auto_generated ; mult_jds            ; work         ;
-;    |uart:uart_inst|                 ; 459 (0)     ; 333 (0)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 124 (0)      ; 57 (0)            ; 278 (0)          ; 0          ; |top|uart:uart_inst                                            ; uart                ; work         ;
-;       |fifo:rx_fifo|                ; 102 (102)   ; 76 (76)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 25 (25)      ; 36 (36)           ; 41 (41)          ; 0          ; |top|uart:uart_inst|fifo:rx_fifo                               ; fifo                ; work         ;
-;       |rx_specific_counter:counter| ; 52 (52)     ; 49 (49)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 15 (15)           ; 34 (34)          ; 0          ; |top|uart:uart_inst|rx_specific_counter:counter                ; rx_specific_counter ; work         ;
-;       |uart_rx:rx_inst|             ; 305 (145)   ; 208 (99)                  ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 96 (46)      ; 6 (6)             ; 203 (93)         ; 0          ; |top|uart:uart_inst|uart_rx:rx_inst                            ; uart_rx             ; work         ;
-;          |division:divide|          ; 160 (160)   ; 109 (109)                 ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 50 (50)      ; 0 (0)             ; 110 (110)        ; 0          ; |top|uart:uart_inst|uart_rx:rx_inst|division:divide            ; division            ; work         ;
+;    |uart:uart_inst|                 ; 451 (0)     ; 333 (0)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 117 (0)      ; 51 (0)            ; 283 (0)          ; 0          ; |top|uart:uart_inst                                            ; uart                ; work         ;
+;       |fifo:rx_fifo|                ; 99 (99)     ; 76 (76)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 22 (22)      ; 34 (34)           ; 43 (43)          ; 0          ; |top|uart:uart_inst|fifo:rx_fifo                               ; fifo                ; work         ;
+;       |rx_specific_counter:counter| ; 53 (53)     ; 49 (49)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 17 (17)           ; 32 (32)          ; 0          ; |top|uart:uart_inst|rx_specific_counter:counter                ; rx_specific_counter ; work         ;
+;       |uart_rx:rx_inst|             ; 299 (139)   ; 208 (99)                  ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 91 (40)      ; 0 (0)             ; 208 (99)         ; 0          ; |top|uart:uart_inst|uart_rx:rx_inst                            ; uart_rx             ; work         ;
+;          |division:divide|          ; 160 (160)   ; 109 (109)                 ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 51 (51)      ; 0 (0)             ; 109 (109)        ; 0          ; |top|uart:uart_inst|uart_rx:rx_inst|division:divide            ; division            ; work         ;
 +-------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+----------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1100,7 +1098,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; ind              ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; clk              ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
 ; reset            ; Input    ; (0) 0 ps      ; (0) 0 ps      ; --                    ; --  ; --   ;
-; rx               ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
+; rx               ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
 +------------------+----------+---------------+---------------+-----------------------+-----+------+
 
 
@@ -1111,446 +1109,448 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------+-------------------+---------+
 ; clk                                                                ;                   ;         ;
 ; reset                                                              ;                   ;         ;
-;      - ind~reg0                                                    ; 0                 ; 0       ;
-;      - bcd_set[0]                                                  ; 0                 ; 0       ;
-;      - bcd_set[1]                                                  ; 0                 ; 0       ;
-;      - bcd_set[2]                                                  ; 0                 ; 0       ;
-;      - bcd_set[3]                                                  ; 0                 ; 0       ;
-;      - bcd_set[4]                                                  ; 0                 ; 0       ;
-;      - bcd_set[5]                                                  ; 0                 ; 0       ;
-;      - bcd_set[6]                                                  ; 0                 ; 0       ;
-;      - bcd_set[7]                                                  ; 0                 ; 0       ;
-;      - bcd_set[8]                                                  ; 0                 ; 0       ;
-;      - bcd_set[9]                                                  ; 0                 ; 0       ;
-;      - bcd_set[10]                                                 ; 0                 ; 0       ;
-;      - bcd_set[11]                                                 ; 0                 ; 0       ;
-;      - bcd_set[12]                                                 ; 0                 ; 0       ;
-;      - bcd_set[13]                                                 ; 0                 ; 0       ;
-;      - bcd_set[14]                                                 ; 0                 ; 0       ;
-;      - bcd_set[15]                                                 ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|state                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd3[0]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd3[1]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd3[2]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd3[3]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd2[0]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd2[1]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd2[2]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd2[3]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd1[0]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd1[1]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd1[2]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd1[3]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd0[1]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd0[2]                                        ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd0[3]                                        ; 0                 ; 0       ;
-;      - math_expression:me|product[10]                              ; 0                 ; 0       ;
-;      - math_expression:me|product[9]                               ; 0                 ; 0       ;
-;      - math_expression:me|product[8]                               ; 0                 ; 0       ;
-;      - math_expression:me|product[7]                               ; 0                 ; 0       ;
-;      - math_expression:me|product[6]                               ; 0                 ; 0       ;
-;      - math_expression:me|product[5]                               ; 0                 ; 0       ;
-;      - math_expression:me|product[4]                               ; 0                 ; 0       ;
-;      - math_expression:me|product[3]                               ; 0                 ; 0       ;
-;      - math_expression:me|product[2]                               ; 0                 ; 0       ;
-;      - math_expression:me|product[1]                               ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|operate_state.IDLE           ; 0                 ; 0       ;
-;      - math_expression:me|q[10]                                    ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[0]             ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[1]             ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[2]             ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[3]             ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[4]             ; 0                 ; 0       ;
-;      - math_expression:me|q[9]                                     ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[0]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[1]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[2]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[3]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[4]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[5]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[6]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[7]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[8]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[9]       ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[10]      ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[11]      ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[12]      ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[13]      ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[14]      ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|counter[15]      ; 0                 ; 0       ;
-;      - math_expression:me|q[8]                                     ; 0                 ; 0       ;
-;      - math_expression:me|q[7]                                     ; 0                 ; 0       ;
-;      - math_expression:me|q[6]                                     ; 0                 ; 0       ;
-;      - math_expression:me|q[5]                                     ; 0                 ; 0       ;
-;      - math_expression:me|q[4]                                     ; 0                 ; 0       ;
-;      - math_expression:me|q[3]                                     ; 0                 ; 0       ;
-;      - math_expression:me|q[2]                                     ; 0                 ; 0       ;
-;      - math_expression:me|q[1]                                     ; 0                 ; 0       ;
-;      - math_expression:me|q[0]                                     ; 0                 ; 0       ;
-;      - sseg4[6]~reg0                                               ; 0                 ; 0       ;
-;      - bin2bcd:conv|state.FINISH                                   ; 0                 ; 0       ;
-;      - bin2bcd:conv|bcd0[0]                                        ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|baund_detect_state.STOP      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|state.FINISH ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|operate_state.STOP           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|operate_state.START          ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|tick             ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|operate_state.DATA           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|n[2]                         ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|n[1]                         ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|n[0]                         ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|n[3]                         ; 0                 ; 0       ;
-;      - bin2bcd:conv|state.00                                       ; 0                 ; 0       ;
-;      - bin2bcd:conv|state.LAST                                     ; 0                 ; 0       ;
-;      - bin2bcd:conv|state.PROC                                     ; 0                 ; 0       ;
-;      - math_expression:me|valid~0                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|baund_detect_state.DATA      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle[7]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle[6]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle[5]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle[4]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle[3]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle[2]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle[1]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle[0]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[31]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[30]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[29]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[28]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[27]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[26]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[25]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[24]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[23]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[22]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[21]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[20]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[16]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[19]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[18]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[17]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[15]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[14]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[13]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[12]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[10]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[9]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[11]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[8]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[7]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[5]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[6]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[4]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[3]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[2]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[1]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[0]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|state.PROC   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[9]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[8]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[7]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[6]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[5]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[4]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[3]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[2]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[1]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[0]   ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[1]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[0]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[3]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[2]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[4]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[5]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[7]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[6]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[9]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[8]            ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[10]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[11]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[12]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[13]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[14]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[15]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[31]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[30]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[29]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[28]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[27]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[26]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[25]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[24]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[23]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[22]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[21]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[20]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[19]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[18]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[17]           ; 0                 ; 0       ;
-;      - uart:uart_inst|rx_specific_counter:counter|_m[16]           ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|state.EMPTY                     ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|read_addr[0]                    ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|read_addr[1]                    ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|read_addr[2]                    ; 0                 ; 0       ;
-;      - start~1                                                     ; 0                 ; 0       ;
-;      - bin2bcd:conv|counter[3]                                     ; 0                 ; 0       ;
-;      - bin2bcd:conv|counter[2]                                     ; 0                 ; 0       ;
-;      - bin2bcd:conv|counter[1]                                     ; 0                 ; 0       ;
-;      - bin2bcd:conv|counter[0]                                     ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[15]~_emulated                          ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[15]~2                                  ; 0                 ; 0       ;
-;      - math_expression:me|valid_stage_2~0                          ; 0                 ; 0       ;
-;      - math_expression:me|temp~0                                   ; 0                 ; 0       ;
-;      - math_expression:me|temp~1                                   ; 0                 ; 0       ;
-;      - math_expression:me|temp~2                                   ; 0                 ; 0       ;
-;      - math_expression:me|temp~3                                   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|baund_detect_state.IDLE      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|div_start                    ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|state.READY  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[1]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[0]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[3]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[2]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[4]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[5]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[7]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[6]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[9]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[8]       ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[10]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[11]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[12]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[13]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[14]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[15]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[31]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[30]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[29]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[28]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[27]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[26]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[25]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[24]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[23]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[22]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[21]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[20]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[19]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[18]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[17]      ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[16]      ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|state.PROC                      ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|write_addr[1]                   ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|write_addr[0]                   ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|write_addr[3]                   ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|read_addr[3]                    ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|write_addr[2]                   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|done_tick                    ; 0                 ; 0       ;
-;      - enable[0]~3                                                 ; 1                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|d_out[4]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|write_en                        ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|d_out[6]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|d_out[7]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|d_out[5]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|d_out[0]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|d_out[1]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|d_out[2]                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|d_out[3]                     ; 0                 ; 0       ;
-;      - math_expression:me|valid_stage_1~0                          ; 0                 ; 0       ;
-;      - math_expression:me|dx4~0                                    ; 0                 ; 0       ;
-;      - math_expression:me|dx4~1                                    ; 0                 ; 0       ;
-;      - math_expression:me|dx4~2                                    ; 0                 ; 0       ;
-;      - math_expression:me|dx4~3                                    ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[63]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[62]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[61]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[60]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[59]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[58]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[57]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[56]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[55]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[54]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[53]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[52]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[51]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[50]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[49]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[48]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[47]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[46]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[45]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[44]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[43]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[42]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[41]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[40]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[39]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[38]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[37]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[36]  ; 0                 ; 0       ;
-;      - uart:uart_inst|fifo:rx_fifo|state.FULL                      ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[14]~_emulated                          ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[14]~4                                  ; 0                 ; 0       ;
-;      - math_expression:me|_d[0]~0                                  ; 0                 ; 0       ;
-;      - d[3]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_d~1                                     ; 0                 ; 0       ;
-;      - d[2]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_d~2                                     ; 0                 ; 0       ;
-;      - d[1]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_d~3                                     ; 0                 ; 0       ;
-;      - d[0]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_d~4                                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[35]  ; 0                 ; 0       ;
-;      - math_expression:me|cx3_plus_1~4                             ; 0                 ; 0       ;
-;      - math_expression:me|cx3_plus_1~5                             ; 0                 ; 0       ;
-;      - temp                                                        ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[34]  ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[13]~_emulated                          ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[13]~6                                  ; 0                 ; 0       ;
-;      - c[0]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_c~0                                     ; 0                 ; 0       ;
-;      - c[1]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_c~1                                     ; 0                 ; 0       ;
-;      - c[2]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_c~2                                     ; 0                 ; 0       ;
-;      - c[3]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_c~3                                     ; 0                 ; 0       ;
-;      - a[0]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_a~0                                     ; 0                 ; 0       ;
-;      - b[0]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_b~0                                     ; 0                 ; 0       ;
-;      - a[1]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_a~1                                     ; 0                 ; 0       ;
-;      - b[1]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_b~1                                     ; 0                 ; 0       ;
-;      - a[2]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_a~2                                     ; 0                 ; 0       ;
-;      - b[2]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_b~2                                     ; 0                 ; 0       ;
-;      - a[3]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_a~3                                     ; 0                 ; 0       ;
-;      - b[3]                                                        ; 0                 ; 0       ;
-;      - math_expression:me|_b~3                                     ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[33]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[32]  ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[12]~_emulated                          ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[12]~8                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[31]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[30]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[31]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[11]~_emulated                          ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[11]~10                                 ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[29]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[30]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[28]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[29]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[10]~_emulated                          ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[10]~14                                 ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[27]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[28]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[26]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[27]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[9]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[9]~18                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[25]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[26]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[24]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[25]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[8]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[8]~22                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[23]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[24]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[22]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[23]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[7]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[7]~26                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[21]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[22]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[20]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[21]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[6]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[6]~30                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[19]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[20]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[18]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[19]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[5]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[5]~34                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[17]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[18]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[16]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[17]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[4]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[4]~38                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[15]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[16]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[14]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[15]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[3]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[3]~42                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[13]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[14]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[12]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[13]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[2]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[2]~46                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[11]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[12]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[10]  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[11]           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[1]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[1]~50                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[9]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[10]           ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[8]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[9]            ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[0]~_emulated                           ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[0]~54                                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[7]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[8]            ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[6]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[7]            ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[5]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[6]            ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[4]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[5]            ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[3]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[4]            ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[2]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[3]            ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[1]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[2]            ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[0]   ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[1]            ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[0]            ; 0                 ; 0       ;
-;      - state~2                                                     ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[15]~1                                  ; 0                 ; 0       ;
+;      - ind~reg0                                                    ; 1                 ; 0       ;
+;      - bcd_set[0]                                                  ; 1                 ; 0       ;
+;      - bcd_set[1]                                                  ; 1                 ; 0       ;
+;      - bcd_set[2]                                                  ; 1                 ; 0       ;
+;      - bcd_set[3]                                                  ; 1                 ; 0       ;
+;      - bcd_set[4]                                                  ; 1                 ; 0       ;
+;      - bcd_set[5]                                                  ; 1                 ; 0       ;
+;      - bcd_set[6]                                                  ; 1                 ; 0       ;
+;      - bcd_set[7]                                                  ; 1                 ; 0       ;
+;      - bcd_set[8]                                                  ; 1                 ; 0       ;
+;      - bcd_set[9]                                                  ; 1                 ; 0       ;
+;      - bcd_set[10]                                                 ; 1                 ; 0       ;
+;      - bcd_set[11]                                                 ; 1                 ; 0       ;
+;      - bcd_set[12]                                                 ; 1                 ; 0       ;
+;      - bcd_set[13]                                                 ; 1                 ; 0       ;
+;      - bcd_set[14]                                                 ; 1                 ; 0       ;
+;      - bcd_set[15]                                                 ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|state                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd3[0]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd3[1]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd3[2]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd3[3]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd2[0]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd2[1]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd2[2]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd2[3]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd1[0]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd1[1]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd1[2]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd1[3]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd0[1]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd0[2]                                        ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd0[3]                                        ; 1                 ; 0       ;
+;      - start                                                       ; 1                 ; 0       ;
+;      - math_expression:me|product[10]                              ; 1                 ; 0       ;
+;      - math_expression:me|product[9]                               ; 1                 ; 0       ;
+;      - math_expression:me|product[8]                               ; 1                 ; 0       ;
+;      - math_expression:me|product[7]                               ; 1                 ; 0       ;
+;      - math_expression:me|product[6]                               ; 1                 ; 0       ;
+;      - math_expression:me|product[5]                               ; 1                 ; 0       ;
+;      - math_expression:me|product[4]                               ; 1                 ; 0       ;
+;      - math_expression:me|product[3]                               ; 1                 ; 0       ;
+;      - math_expression:me|product[2]                               ; 1                 ; 0       ;
+;      - math_expression:me|product[1]                               ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|operate_state.IDLE           ; 1                 ; 0       ;
+;      - math_expression:me|q[10]                                    ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[0]             ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[1]             ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[2]             ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[3]             ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|s_operate_reg[4]             ; 1                 ; 0       ;
+;      - math_expression:me|q[9]                                     ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[0]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[1]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[2]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[3]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[4]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[5]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[6]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[7]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[8]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[9]       ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[10]      ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[11]      ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[12]      ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[13]      ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[14]      ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|counter[15]      ; 1                 ; 0       ;
+;      - math_expression:me|q[8]                                     ; 1                 ; 0       ;
+;      - math_expression:me|q[7]                                     ; 1                 ; 0       ;
+;      - math_expression:me|q[6]                                     ; 1                 ; 0       ;
+;      - math_expression:me|q[5]                                     ; 1                 ; 0       ;
+;      - math_expression:me|q[4]                                     ; 1                 ; 0       ;
+;      - math_expression:me|q[3]                                     ; 1                 ; 0       ;
+;      - math_expression:me|q[2]                                     ; 1                 ; 0       ;
+;      - math_expression:me|q[1]                                     ; 1                 ; 0       ;
+;      - math_expression:me|q[0]                                     ; 1                 ; 0       ;
+;      - sseg4[6]~reg0                                               ; 1                 ; 0       ;
+;      - bin2bcd:conv|state.FINISH                                   ; 1                 ; 0       ;
+;      - bin2bcd:conv|bcd0[0]                                        ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|baund_detect_state.STOP      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|state.FINISH ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|operate_state.STOP           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|operate_state.START          ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|tick             ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|operate_state.DATA           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|n[2]                         ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|n[1]                         ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|n[0]                         ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|n[3]                         ; 1                 ; 0       ;
+;      - bin2bcd:conv|state.00                                       ; 1                 ; 0       ;
+;      - bin2bcd:conv|state.LAST                                     ; 1                 ; 0       ;
+;      - bin2bcd:conv|state.PROC                                     ; 1                 ; 0       ;
+;      - math_expression:me|valid~0                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|baund_detect_state.DATA      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle[7]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle[6]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle[5]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle[4]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle[3]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle[2]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle[1]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle[0]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[31]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[30]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[29]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[28]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[27]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[26]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[25]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[24]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[23]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[22]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[21]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[20]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[16]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[19]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[18]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[17]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[15]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[14]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[13]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[12]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[10]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[9]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[11]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[8]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[7]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[5]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[6]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[4]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[3]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[2]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[1]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[0]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|state.PROC   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[9]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[8]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[7]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[6]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[5]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[4]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[3]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[2]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[1]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|counter[0]   ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[1]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[0]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[3]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[2]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[4]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[5]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[7]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[6]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[9]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[8]            ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[10]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[11]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[12]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[13]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[14]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[15]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[31]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[30]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[29]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[28]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[27]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[26]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[25]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[24]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[23]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[22]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[21]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[20]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[19]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[18]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[17]           ; 1                 ; 0       ;
+;      - uart:uart_inst|rx_specific_counter:counter|_m[16]           ; 1                 ; 0       ;
+;      - state.SET_D                                                 ; 1                 ; 0       ;
+;      - state.SET_B                                                 ; 1                 ; 0       ;
+;      - state.SET_C                                                 ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|read_addr[1]                    ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|read_addr[0]                    ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|read_addr[2]                    ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|state.EMPTY                     ; 1                 ; 0       ;
+;      - bin2bcd:conv|counter[3]                                     ; 1                 ; 0       ;
+;      - bin2bcd:conv|counter[2]                                     ; 1                 ; 0       ;
+;      - bin2bcd:conv|counter[1]                                     ; 1                 ; 0       ;
+;      - bin2bcd:conv|counter[0]                                     ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[15]~_emulated                          ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[15]~2                                  ; 1                 ; 0       ;
+;      - math_expression:me|valid_stage_2~0                          ; 1                 ; 0       ;
+;      - math_expression:me|temp~0                                   ; 1                 ; 0       ;
+;      - math_expression:me|temp~1                                   ; 1                 ; 0       ;
+;      - math_expression:me|temp~2                                   ; 1                 ; 0       ;
+;      - math_expression:me|temp~3                                   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|baund_detect_state.IDLE      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|div_start                    ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|state.READY  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[1]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[0]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[3]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[2]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[4]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[5]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[7]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[6]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[9]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[8]       ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[10]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[11]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[12]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[13]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[14]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[15]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[31]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[30]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[29]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[28]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[27]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[26]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[25]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[24]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[23]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[22]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[21]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[20]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[19]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[18]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[17]      ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|quo[16]      ; 1                 ; 0       ;
+;      - state.SET_A                                                 ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|d_out[5]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|write_addr[1]                   ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|write_addr[2]                   ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|write_en                        ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|write_addr[0]                   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|d_out[4]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|d_out[6]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|d_out[7]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|d_out[0]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|d_out[1]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|d_out[2]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|d_out[3]                     ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|state.PROC                      ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|write_addr[3]                   ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|read_addr[3]                    ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|done_tick                    ; 1                 ; 0       ;
+;      - math_expression:me|valid_stage_1~0                          ; 1                 ; 0       ;
+;      - math_expression:me|dx4~0                                    ; 1                 ; 0       ;
+;      - math_expression:me|dx4~1                                    ; 1                 ; 0       ;
+;      - math_expression:me|dx4~2                                    ; 1                 ; 0       ;
+;      - math_expression:me|dx4~3                                    ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[63]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[62]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[61]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[60]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[59]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[58]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[57]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[56]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[55]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[54]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[53]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[52]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[51]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[50]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[49]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[48]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[47]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[46]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[45]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[44]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[43]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[42]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[41]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[40]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[39]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[38]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[37]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[36]  ; 1                 ; 0       ;
+;      - uart:uart_inst|fifo:rx_fifo|state.FULL                      ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[14]~_emulated                          ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[14]~4                                  ; 1                 ; 0       ;
+;      - math_expression:me|_a[0]~0                                  ; 1                 ; 0       ;
+;      - d[3]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_d~0                                     ; 1                 ; 0       ;
+;      - d[2]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_d~1                                     ; 1                 ; 0       ;
+;      - d[1]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_d~2                                     ; 1                 ; 0       ;
+;      - d[0]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_d~3                                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[35]  ; 1                 ; 0       ;
+;      - math_expression:me|cx3_plus_1~4                             ; 1                 ; 0       ;
+;      - math_expression:me|cx3_plus_1~5                             ; 1                 ; 0       ;
+;      - temp                                                        ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[34]  ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[13]~_emulated                          ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[13]~6                                  ; 1                 ; 0       ;
+;      - c[0]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_c~0                                     ; 1                 ; 0       ;
+;      - c[1]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_c~1                                     ; 1                 ; 0       ;
+;      - c[2]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_c~2                                     ; 1                 ; 0       ;
+;      - c[3]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_c~3                                     ; 1                 ; 0       ;
+;      - a[0]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_a~1                                     ; 1                 ; 0       ;
+;      - b[0]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_b~0                                     ; 1                 ; 0       ;
+;      - a[1]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_a~2                                     ; 1                 ; 0       ;
+;      - b[1]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_b~1                                     ; 1                 ; 0       ;
+;      - a[2]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_a~3                                     ; 1                 ; 0       ;
+;      - b[2]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_b~2                                     ; 1                 ; 0       ;
+;      - a[3]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_a~4                                     ; 1                 ; 0       ;
+;      - b[3]                                                        ; 1                 ; 0       ;
+;      - math_expression:me|_b~3                                     ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[33]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[32]  ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[12]~_emulated                          ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[12]~8                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[31]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[30]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[31]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[11]~_emulated                          ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[11]~10                                 ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[29]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[30]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[28]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[29]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[10]~_emulated                          ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[10]~14                                 ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[27]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[28]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[26]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[27]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[9]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[9]~18                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[25]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[26]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[24]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[25]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[8]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[8]~22                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[23]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[24]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[22]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[23]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[7]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[7]~26                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[21]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[22]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[20]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[21]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[6]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[6]~30                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[19]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[20]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[18]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[19]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[5]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[5]~34                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[17]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[18]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[16]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[17]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[4]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[4]~38                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[15]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[16]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[14]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[15]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[3]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[3]~42                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[13]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[14]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[12]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[13]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[2]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[2]~46                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[11]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[12]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[10]  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[11]           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[1]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[1]~50                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[9]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[10]           ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[8]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[9]            ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[0]~_emulated                           ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[0]~54                                  ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[7]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[8]            ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[6]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[7]            ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[5]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[6]            ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[4]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[5]            ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[3]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[4]            ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[2]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[3]            ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[1]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[2]            ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|division:divide|db_dvnd[0]   ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[1]            ; 1                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[0]            ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[15]~1                                  ; 1                 ; 0       ;
 ;      - bin2bcd:conv|bin_reg[10]~13                                 ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[9]~17                                  ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[8]~21                                  ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[7]~25                                  ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[6]~29                                  ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[5]~33                                  ; 0                 ; 0       ;
-;      - bin2bcd:conv|bin_reg[4]~37                                  ; 0                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[9]~17                                  ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[8]~21                                  ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[7]~25                                  ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[6]~29                                  ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[5]~33                                  ; 1                 ; 0       ;
+;      - bin2bcd:conv|bin_reg[4]~37                                  ; 1                 ; 0       ;
 ;      - bin2bcd:conv|bin_reg[3]~41                                  ; 0                 ; 0       ;
 ;      - bin2bcd:conv|bin_reg[2]~45                                  ; 0                 ; 0       ;
 ;      - bin2bcd:conv|bin_reg[1]~49                                  ; 0                 ; 0       ;
 ;      - bin2bcd:conv|bin_reg[0]~53                                  ; 0                 ; 0       ;
-;      - math_expression:me|cx3_plus_1[2]~SCLR_LUT                   ; 0                 ; 0       ;
-;      - math_expression:me|cx3_plus_1[3]~SCLR_LUT                   ; 0                 ; 0       ;
-;      - math_expression:me|cx3_plus_1[4]~SCLR_LUT                   ; 0                 ; 0       ;
-;      - math_expression:me|cx3_plus_1[5]~SCLR_LUT                   ; 0                 ; 0       ;
-;      - math_expression:me|a_minus_b[0]~SCLR_LUT                    ; 0                 ; 0       ;
-;      - math_expression:me|a_minus_b[1]~SCLR_LUT                    ; 0                 ; 0       ;
-;      - math_expression:me|a_minus_b[2]~SCLR_LUT                    ; 0                 ; 0       ;
-;      - math_expression:me|a_minus_b[3]~SCLR_LUT                    ; 0                 ; 0       ;
-;      - math_expression:me|a_minus_b[4]~SCLR_LUT                    ; 0                 ; 0       ;
+;      - math_expression:me|cx3_plus_1[2]~SCLR_LUT                   ; 1                 ; 0       ;
+;      - math_expression:me|cx3_plus_1[3]~SCLR_LUT                   ; 1                 ; 0       ;
+;      - math_expression:me|cx3_plus_1[4]~SCLR_LUT                   ; 1                 ; 0       ;
+;      - math_expression:me|cx3_plus_1[5]~SCLR_LUT                   ; 1                 ; 0       ;
+;      - math_expression:me|a_minus_b[0]~SCLR_LUT                    ; 1                 ; 0       ;
+;      - math_expression:me|a_minus_b[1]~SCLR_LUT                    ; 1                 ; 0       ;
+;      - math_expression:me|a_minus_b[2]~SCLR_LUT                    ; 1                 ; 0       ;
+;      - math_expression:me|a_minus_b[3]~SCLR_LUT                    ; 1                 ; 0       ;
+;      - math_expression:me|a_minus_b[4]~SCLR_LUT                    ; 1                 ; 0       ;
 ; rx                                                                 ;                   ;         ;
-;      - uart:uart_inst|uart_rx:rx_inst|operate_state~13             ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|baund_detect_state~21        ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|Selector8~0                  ; 0                 ; 0       ;
-;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[31]~1         ; 0                 ; 0       ;
+;      - uart:uart_inst|uart_rx:rx_inst|operate_state~13             ; 0                 ; 6       ;
+;      - uart:uart_inst|uart_rx:rx_inst|baund_detect_state~21        ; 0                 ; 6       ;
+;      - uart:uart_inst|uart_rx:rx_inst|Selector8~0                  ; 0                 ; 6       ;
+;      - uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[31]~1         ; 0                 ; 6       ;
 +--------------------------------------------------------------------+-------------------+---------+
 
 
@@ -1559,50 +1559,44 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------+--------------------+---------+-----------------------------------------+--------+----------------------+------------------+---------------------------+
 ; Name                                                        ; Location           ; Fan-Out ; Usage                                   ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +-------------------------------------------------------------+--------------------+---------+-----------------------------------------+--------+----------------------+------------------+---------------------------+
-; a[3]~3                                                      ; LCCOMB_X54_Y50_N26 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; b[3]~1                                                      ; LCCOMB_X51_Y50_N14 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; bin2bcd:conv|state.00                                       ; FF_X55_Y50_N3      ; 18      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
-; bin2bcd:conv|state.FINISH                                   ; FF_X55_Y50_N15     ; 52      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; c[1]~0                                                      ; LCCOMB_X52_Y50_N10 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; clk                                                         ; PIN_P11            ; 390     ; Clock                                   ; yes    ; Global Clock         ; GCLK19           ; --                        ;
-; clk                                                         ; PIN_P11            ; 69      ; Clock                                   ; no     ; --                   ; --               ; --                        ;
-; enable[0]~3                                                 ; LCCOMB_X54_Y50_N8  ; 2       ; Latch enable                            ; no     ; --                   ; --               ; --                        ;
-; enable[0]~3                                                 ; LCCOMB_X54_Y50_N8  ; 2       ; Latch enable                            ; yes    ; Global Clock         ; GCLK12           ; --                        ;
-; reset                                                       ; PIN_B14            ; 435     ; Async. clear, Latch enable, Sync. clear ; no     ; --                   ; --               ; --                        ;
-; start~0                                                     ; LCCOMB_X51_Y50_N20 ; 7       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; start~1                                                     ; LCCOMB_X51_Y50_N12 ; 1       ; Latch enable                            ; no     ; --                   ; --               ; --                        ;
-; state~2                                                     ; LCCOMB_X55_Y50_N24 ; 1       ; Latch enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|mem~100                         ; LCCOMB_X51_Y47_N26 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|mem~101                         ; LCCOMB_X49_Y46_N28 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|mem~102                         ; LCCOMB_X49_Y47_N8  ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|mem~103                         ; LCCOMB_X51_Y47_N28 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|mem~104                         ; LCCOMB_X49_Y46_N22 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|mem~105                         ; LCCOMB_X54_Y46_N22 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|mem~106                         ; LCCOMB_X49_Y47_N28 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|mem~107                         ; LCCOMB_X49_Y46_N26 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|state.EMPTY                     ; FF_X54_Y48_N27     ; 16      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|fifo:rx_fifo|write_addr[3]~0                 ; LCCOMB_X54_Y48_N28 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|rx_specific_counter:counter|Equal0~15        ; LCCOMB_X54_Y51_N0  ; 17      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|baund_detect_state~22        ; LCCOMB_X58_Y51_N24 ; 3       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|cycle[7]~0                   ; LCCOMB_X57_Y51_N22 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[31]~1         ; LCCOMB_X58_Y51_N6  ; 32      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|division:divide|state.FINISH ; FF_X59_Y51_N1      ; 159     ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|operate_state~17             ; LCCOMB_X54_Y52_N30 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|s_operate_reg[4]~16          ; LCCOMB_X56_Y52_N28 ; 5       ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|s_operate_reg[4]~17          ; LCCOMB_X56_Y52_N30 ; 5       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|state                        ; FF_X56_Y50_N13     ; 22      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[31]~0    ; LCCOMB_X58_Y51_N16 ; 32      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; a[3]~3                                                      ; LCCOMB_X64_Y50_N2  ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; b[3]~0                                                      ; LCCOMB_X63_Y50_N28 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; bin2bcd:conv|state.00                                       ; FF_X58_Y51_N21     ; 18      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
+; bin2bcd:conv|state.FINISH                                   ; FF_X58_Y51_N19     ; 52      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; c[1]~0                                                      ; LCCOMB_X61_Y50_N26 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; clk                                                         ; PIN_P11            ; 463     ; Clock                                   ; yes    ; Global Clock         ; GCLK19           ; --                        ;
+; d[3]~0                                                      ; LCCOMB_X61_Y50_N12 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; reset                                                       ; PIN_B14            ; 437     ; Async. clear, Latch enable, Sync. clear ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|mem~100                         ; LCCOMB_X61_Y52_N26 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|mem~101                         ; LCCOMB_X61_Y52_N24 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|mem~102                         ; LCCOMB_X61_Y52_N30 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|mem~103                         ; LCCOMB_X60_Y52_N2  ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|mem~104                         ; LCCOMB_X60_Y52_N4  ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|mem~105                         ; LCCOMB_X60_Y52_N10 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|mem~106                         ; LCCOMB_X60_Y52_N16 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|mem~99                          ; LCCOMB_X60_Y52_N0  ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|state.EMPTY                     ; FF_X61_Y52_N13     ; 17      ; Clock enable, Sync. clear               ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|fifo:rx_fifo|write_addr[3]~0                 ; LCCOMB_X61_Y52_N22 ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|rx_specific_counter:counter|Equal0~15        ; LCCOMB_X58_Y53_N26 ; 17      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|baund_detect_state~22        ; LCCOMB_X55_Y50_N20 ; 3       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|cycle[7]~0                   ; LCCOMB_X58_Y50_N4  ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|cycle_per_byte[31]~1         ; LCCOMB_X55_Y50_N22 ; 32      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|division:divide|state.FINISH ; FF_X58_Y53_N21     ; 159     ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|operate_state~17             ; LCCOMB_X58_Y52_N4  ; 4       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|s_operate_reg[0]~16          ; LCCOMB_X57_Y52_N16 ; 5       ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|s_operate_reg[4]~17          ; LCCOMB_X57_Y52_N22 ; 5       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|state                        ; FF_X54_Y50_N21     ; 22      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; uart:uart_inst|uart_rx:rx_inst|temp_cycle_per_byte[31]~0    ; LCCOMB_X58_Y50_N2  ; 32      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
 +-------------------------------------------------------------+--------------------+---------+-----------------------------------------+--------+----------------------+------------------+---------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Global & Other Fast Signals                                                                                                                            ;
-+-------------+-------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Name        ; Location          ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+-------------+-------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; clk         ; PIN_P11           ; 390     ; 42                                   ; Global Clock         ; GCLK19           ; --                        ;
-; enable[0]~3 ; LCCOMB_X54_Y50_N8 ; 2       ; 0                                    ; Global Clock         ; GCLK12           ; --                        ;
-+-------------+-------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                                            ;
++------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; Name ; Location ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; clk  ; PIN_P11  ; 463     ; 48                                   ; Global Clock         ; GCLK19           ; --                        ;
++------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
 +-----------------------------------------------------------------------------------------------+
@@ -1627,8 +1621,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------+---------------------------+--------------------+---------------------+--------------------------------+-----------------------+-----------------------+-------------------+-----------------+
 ; Name                                                                   ; Mode                      ; Location           ; Sign Representation ; Has Input Shift Register Chain ; Data A Input Register ; Data B Input Register ; Pipeline Register ; Output Register ;
 +------------------------------------------------------------------------+---------------------------+--------------------+---------------------+--------------------------------+-----------------------+-----------------------+-------------------+-----------------+
-; math_expression:me|lpm_mult:Mult0|mult_jds:auto_generated|mac_out2     ; Simple Multiplier (9-bit) ; DSPOUT_X48_Y50_N2  ;                     ; No                             ;                       ;                       ;                   ; no              ;
-;    math_expression:me|lpm_mult:Mult0|mult_jds:auto_generated|mac_mult1 ;                           ; DSPMULT_X48_Y50_N0 ; Signed              ;                                ; yes                   ; yes                   ; no                ;                 ;
+; math_expression:me|lpm_mult:Mult0|mult_jds:auto_generated|mac_out2     ; Simple Multiplier (9-bit) ; DSPOUT_X68_Y50_N2  ;                     ; No                             ;                       ;                       ;                   ; no              ;
+;    math_expression:me|lpm_mult:Mult0|mult_jds:auto_generated|mac_mult1 ;                           ; DSPMULT_X68_Y50_N0 ; Signed              ;                                ; yes                   ; yes                   ; no                ;                 ;
 +------------------------------------------------------------------------+---------------------------+--------------------+---------------------+--------------------------------+-----------------------+-----------------------+-------------------+-----------------+
 
 
@@ -1637,93 +1631,92 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-------------------------+
 ; Routing Resource Type ; Usage                   ;
 +-----------------------+-------------------------+
-; Block interconnects   ; 857 / 148,641 ( < 1 % ) ;
-; C16 interconnects     ; 31 / 5,382 ( < 1 % )    ;
-; C4 interconnects      ; 404 / 106,704 ( < 1 % ) ;
-; Direct links          ; 203 / 148,641 ( < 1 % ) ;
-; Global clocks         ; 2 / 20 ( 10 % )         ;
-; Local interconnects   ; 423 / 49,760 ( < 1 % )  ;
+; Block interconnects   ; 819 / 148,641 ( < 1 % ) ;
+; C16 interconnects     ; 12 / 5,382 ( < 1 % )    ;
+; C4 interconnects      ; 332 / 106,704 ( < 1 % ) ;
+; Direct links          ; 187 / 148,641 ( < 1 % ) ;
+; Global clocks         ; 1 / 20 ( 5 % )          ;
+; Local interconnects   ; 393 / 49,760 ( < 1 % )  ;
 ; NSLEEPs               ; 0 / 500 ( 0 % )         ;
-; R24 interconnects     ; 16 / 5,406 ( < 1 % )    ;
-; R4 interconnects      ; 561 / 147,764 ( < 1 % ) ;
+; R24 interconnects     ; 18 / 5,406 ( < 1 % )    ;
+; R4 interconnects      ; 545 / 147,764 ( < 1 % ) ;
 +-----------------------+-------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 12.28) ; Number of LABs  (Total = 57) ;
+; Number of Logic Elements  (Average = 13.31) ; Number of LABs  (Total = 51) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 6                            ;
-; 2                                           ; 5                            ;
+; 1                                           ; 2                            ;
+; 2                                           ; 0                            ;
 ; 3                                           ; 0                            ;
-; 4                                           ; 0                            ;
-; 5                                           ; 1                            ;
-; 6                                           ; 0                            ;
+; 4                                           ; 1                            ;
+; 5                                           ; 3                            ;
+; 6                                           ; 1                            ;
 ; 7                                           ; 0                            ;
 ; 8                                           ; 0                            ;
 ; 9                                           ; 0                            ;
 ; 10                                          ; 2                            ;
-; 11                                          ; 1                            ;
-; 12                                          ; 1                            ;
+; 11                                          ; 2                            ;
+; 12                                          ; 2                            ;
 ; 13                                          ; 4                            ;
-; 14                                          ; 1                            ;
-; 15                                          ; 6                            ;
-; 16                                          ; 30                           ;
+; 14                                          ; 3                            ;
+; 15                                          ; 4                            ;
+; 16                                          ; 27                           ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 2.14) ; Number of LABs  (Total = 57) ;
+; LAB-wide Signals  (Average = 2.35) ; Number of LABs  (Total = 51) ;
 +------------------------------------+------------------------------+
 ; 1 Async. clear                     ; 36                           ;
 ; 1 Clock                            ; 50                           ;
-; 1 Clock enable                     ; 20                           ;
+; 1 Clock enable                     ; 21                           ;
 ; 1 Sync. clear                      ; 4                            ;
 ; 2 Clock enables                    ; 9                            ;
-; 2 Clocks                           ; 3                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 20.18) ; Number of LABs  (Total = 57) ;
+; Number of Signals Sourced  (Average = 22.18) ; Number of LABs  (Total = 51) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 4                            ;
-; 2                                            ; 3                            ;
-; 3                                            ; 3                            ;
-; 4                                            ; 1                            ;
-; 5                                            ; 0                            ;
+; 1                                            ; 1                            ;
+; 2                                            ; 1                            ;
+; 3                                            ; 0                            ;
+; 4                                            ; 0                            ;
+; 5                                            ; 1                            ;
 ; 6                                            ; 0                            ;
-; 7                                            ; 0                            ;
-; 8                                            ; 1                            ;
-; 9                                            ; 0                            ;
-; 10                                           ; 0                            ;
+; 7                                            ; 1                            ;
+; 8                                            ; 0                            ;
+; 9                                            ; 2                            ;
+; 10                                           ; 1                            ;
 ; 11                                           ; 0                            ;
 ; 12                                           ; 0                            ;
 ; 13                                           ; 0                            ;
 ; 14                                           ; 0                            ;
-; 15                                           ; 0                            ;
-; 16                                           ; 1                            ;
-; 17                                           ; 2                            ;
+; 15                                           ; 1                            ;
+; 16                                           ; 0                            ;
+; 17                                           ; 0                            ;
 ; 18                                           ; 3                            ;
-; 19                                           ; 2                            ;
+; 19                                           ; 3                            ;
 ; 20                                           ; 2                            ;
-; 21                                           ; 6                            ;
+; 21                                           ; 7                            ;
 ; 22                                           ; 2                            ;
 ; 23                                           ; 3                            ;
-; 24                                           ; 2                            ;
-; 25                                           ; 1                            ;
-; 26                                           ; 3                            ;
-; 27                                           ; 4                            ;
-; 28                                           ; 0                            ;
+; 24                                           ; 1                            ;
+; 25                                           ; 2                            ;
+; 26                                           ; 5                            ;
+; 27                                           ; 2                            ;
+; 28                                           ; 2                            ;
 ; 29                                           ; 0                            ;
-; 30                                           ; 2                            ;
-; 31                                           ; 5                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 4                            ;
 ; 32                                           ; 7                            ;
 +----------------------------------------------+------------------------------+
 
@@ -1731,28 +1724,28 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 8.00) ; Number of LABs  (Total = 57) ;
+; Number of Signals Sourced Out  (Average = 8.75) ; Number of LABs  (Total = 51) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 10                           ;
+; 1                                               ; 4                            ;
 ; 2                                               ; 4                            ;
-; 3                                               ; 6                            ;
-; 4                                               ; 5                            ;
-; 5                                               ; 3                            ;
-; 6                                               ; 1                            ;
-; 7                                               ; 3                            ;
-; 8                                               ; 1                            ;
-; 9                                               ; 1                            ;
-; 10                                              ; 1                            ;
-; 11                                              ; 3                            ;
-; 12                                              ; 5                            ;
-; 13                                              ; 3                            ;
-; 14                                              ; 4                            ;
-; 15                                              ; 3                            ;
+; 3                                               ; 2                            ;
+; 4                                               ; 3                            ;
+; 5                                               ; 9                            ;
+; 6                                               ; 2                            ;
+; 7                                               ; 1                            ;
+; 8                                               ; 2                            ;
+; 9                                               ; 3                            ;
+; 10                                              ; 5                            ;
+; 11                                              ; 2                            ;
+; 12                                              ; 3                            ;
+; 13                                              ; 2                            ;
+; 14                                              ; 2                            ;
+; 15                                              ; 2                            ;
 ; 16                                              ; 1                            ;
 ; 17                                              ; 0                            ;
 ; 18                                              ; 1                            ;
-; 19                                              ; 0                            ;
+; 19                                              ; 1                            ;
 ; 20                                              ; 0                            ;
 ; 21                                              ; 0                            ;
 ; 22                                              ; 0                            ;
@@ -1772,37 +1765,43 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 12.56) ; Number of LABs  (Total = 57) ;
+; Number of Distinct Inputs  (Average = 13.16) ; Number of LABs  (Total = 51) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
-; 2                                            ; 1                            ;
-; 3                                            ; 4                            ;
-; 4                                            ; 5                            ;
+; 2                                            ; 0                            ;
+; 3                                            ; 2                            ;
+; 4                                            ; 2                            ;
 ; 5                                            ; 3                            ;
-; 6                                            ; 2                            ;
+; 6                                            ; 0                            ;
 ; 7                                            ; 2                            ;
-; 8                                            ; 2                            ;
+; 8                                            ; 4                            ;
 ; 9                                            ; 3                            ;
-; 10                                           ; 0                            ;
+; 10                                           ; 3                            ;
 ; 11                                           ; 4                            ;
-; 12                                           ; 2                            ;
-; 13                                           ; 2                            ;
-; 14                                           ; 4                            ;
-; 15                                           ; 2                            ;
+; 12                                           ; 1                            ;
+; 13                                           ; 4                            ;
+; 14                                           ; 2                            ;
+; 15                                           ; 4                            ;
 ; 16                                           ; 3                            ;
-; 17                                           ; 4                            ;
-; 18                                           ; 1                            ;
-; 19                                           ; 1                            ;
-; 20                                           ; 2                            ;
-; 21                                           ; 0                            ;
+; 17                                           ; 2                            ;
+; 18                                           ; 2                            ;
+; 19                                           ; 0                            ;
+; 20                                           ; 0                            ;
+; 21                                           ; 2                            ;
 ; 22                                           ; 0                            ;
-; 23                                           ; 3                            ;
+; 23                                           ; 2                            ;
 ; 24                                           ; 1                            ;
-; 25                                           ; 2                            ;
-; 26                                           ; 0                            ;
-; 27                                           ; 2                            ;
+; 25                                           ; 1                            ;
+; 26                                           ; 1                            ;
+; 27                                           ; 0                            ;
 ; 28                                           ; 1                            ;
+; 29                                           ; 0                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 0                            ;
+; 32                                           ; 0                            ;
+; 33                                           ; 0                            ;
+; 34                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -1966,130 +1965,110 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------+----------------------+-------------------+
 ; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
 +-----------------+----------------------+-------------------+
-; I/O             ; clk                  ; 224.7             ;
-; clk,reset,I/O   ; clk                  ; 23.3              ;
-; clk,I/O         ; clk                  ; 20.4              ;
-; I/O             ; reset                ; 10.0              ;
-; reset           ; reset                ; 8.4               ;
+; I/O             ; clk                  ; 190.9             ;
+; clk,I/O         ; clk                  ; 38.1              ;
+; clk,reset,I/O   ; clk                  ; 19.6              ;
 +-----------------+----------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
 
 
-+-------------------------------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Details                                                         ;
-+-----------------------------------------+-----------------------------------------+-------------------+
-; Source Register                         ; Destination Register                    ; Delay Added in ns ;
-+-----------------------------------------+-----------------------------------------+-------------------+
-; state                                   ; enable[1]                               ; 3.981             ;
-; enable[2]                               ; enable[1]                               ; 3.902             ;
-; reset                                   ; math_expression:me|_d[2]                ; 3.300             ;
-; uart:uart_inst|fifo:rx_fifo|state.EMPTY ; enable[1]                               ; 2.190             ;
-; bin2bcd:conv|bin_reg[0]~_emulated       ; bin2bcd:conv|bin_reg[1]~_emulated       ; 1.515             ;
-; bin2bcd:conv|bin_reg[0]~53              ; bin2bcd:conv|bin_reg[1]~_emulated       ; 1.515             ;
-; math_expression:me|q[0]                 ; bin2bcd:conv|bin_reg[1]~_emulated       ; 1.515             ;
-; bin2bcd:conv|bin_reg[7]~_emulated       ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; bin2bcd:conv|bin_reg[8]~_emulated       ; bin2bcd:conv|bin_reg[9]~_emulated       ; 1.457             ;
-; bin2bcd:conv|bin_reg[9]~_emulated       ; bin2bcd:conv|bin_reg[10]~_emulated      ; 1.457             ;
-; math_expression:me|q[10]                ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; math_expression:me|q[9]                 ; bin2bcd:conv|bin_reg[10]~_emulated      ; 1.457             ;
-; math_expression:me|q[8]                 ; bin2bcd:conv|bin_reg[9]~_emulated       ; 1.457             ;
-; math_expression:me|q[7]                 ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; math_expression:me|q[6]                 ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; math_expression:me|q[5]                 ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; math_expression:me|q[4]                 ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; math_expression:me|q[3]                 ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; math_expression:me|q[2]                 ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; math_expression:me|q[1]                 ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; bin2bcd:conv|bin_reg[7]~25              ; bin2bcd:conv|bin_reg[8]~_emulated       ; 1.457             ;
-; bin2bcd:conv|bin_reg[8]~21              ; bin2bcd:conv|bin_reg[9]~_emulated       ; 1.457             ;
-; bin2bcd:conv|bin_reg[9]~17              ; bin2bcd:conv|bin_reg[10]~_emulated      ; 1.457             ;
-; bin2bcd:conv|bin_reg[1]~_emulated       ; bin2bcd:conv|bin_reg[2]~_emulated       ; 1.438             ;
-; bin2bcd:conv|bin_reg[2]~_emulated       ; bin2bcd:conv|bin_reg[3]~_emulated       ; 1.438             ;
-; bin2bcd:conv|bin_reg[3]~_emulated       ; bin2bcd:conv|bin_reg[4]~_emulated       ; 1.438             ;
-; bin2bcd:conv|bin_reg[1]~49              ; bin2bcd:conv|bin_reg[2]~_emulated       ; 1.438             ;
-; bin2bcd:conv|bin_reg[2]~45              ; bin2bcd:conv|bin_reg[3]~_emulated       ; 1.438             ;
-; bin2bcd:conv|bin_reg[3]~41              ; bin2bcd:conv|bin_reg[4]~_emulated       ; 1.438             ;
-; enable[1]                               ; enable[0]                               ; 1.411             ;
-; bin2bcd:conv|bin_reg[15]~_emulated      ; bin2bcd:conv|bcd0[0]                    ; 1.343             ;
-; bin2bcd:conv|bin_reg[15]~1              ; bin2bcd:conv|bcd0[0]                    ; 1.343             ;
-; bin2bcd:conv|bin_reg[5]~_emulated       ; bin2bcd:conv|bin_reg[6]~_emulated       ; 1.319             ;
-; bin2bcd:conv|bin_reg[6]~_emulated       ; bin2bcd:conv|bin_reg[7]~_emulated       ; 1.319             ;
-; bin2bcd:conv|bin_reg[5]~33              ; bin2bcd:conv|bin_reg[6]~_emulated       ; 1.319             ;
-; bin2bcd:conv|bin_reg[6]~29              ; bin2bcd:conv|bin_reg[7]~_emulated       ; 1.319             ;
-; bin2bcd:conv|bin_reg[11]~_emulated      ; bin2bcd:conv|bin_reg[12]~_emulated      ; 1.309             ;
-; bin2bcd:conv|bin_reg[12]~_emulated      ; bin2bcd:conv|bin_reg[13]~_emulated      ; 1.309             ;
-; bin2bcd:conv|bin_reg[13]~_emulated      ; bin2bcd:conv|bin_reg[14]~_emulated      ; 1.309             ;
-; math_expression:me|dx4[4]               ; math_expression:me|temp[4]              ; 1.309             ;
-; math_expression:me|dx4[2]               ; math_expression:me|temp[2]              ; 1.309             ;
-; bin2bcd:conv|bin_reg[4]~_emulated       ; bin2bcd:conv|bin_reg[5]~_emulated       ; 1.305             ;
-; bin2bcd:conv|bin_reg[14]~_emulated      ; bin2bcd:conv|bin_reg[15]~_emulated      ; 1.305             ;
-; bin2bcd:conv|bin_reg[4]~37              ; bin2bcd:conv|bin_reg[5]~_emulated       ; 1.305             ;
-; math_expression:me|_d[1]                ; math_expression:me|dx4[3]               ; 1.293             ;
-; math_expression:me|_d[2]                ; math_expression:me|dx4[4]               ; 1.221             ;
-; math_expression:me|_d[0]                ; math_expression:me|dx4[2]               ; 1.221             ;
-; math_expression:me|valid_in             ; math_expression:me|valid_stage_1        ; 1.221             ;
-; math_expression:me|valid_stage_1        ; math_expression:me|valid_stage_2        ; 1.221             ;
-; math_expression:me|valid_stage_2        ; math_expression:me|valid                ; 1.221             ;
-; bin2bcd:conv|bin_reg[10]~_emulated      ; bin2bcd:conv|bin_reg[11]~_emulated      ; 1.220             ;
-; bin2bcd:conv|bin_reg[10]~13             ; bin2bcd:conv|bin_reg[11]~_emulated      ; 1.220             ;
-; math_expression:me|dx4[5]               ; math_expression:me|temp[5]              ; 1.172             ;
-; math_expression:me|_d[3]                ; math_expression:me|dx4[5]               ; 1.148             ;
-; math_expression:me|dx4[3]               ; math_expression:me|temp[3]              ; 1.088             ;
-; math_expression:me|_c[2]                ; math_expression:me|cx3_plus_1[2]        ; 0.741             ;
-; math_expression:me|_c[1]                ; math_expression:me|cx3_plus_1[2]        ; 0.741             ;
-; math_expression:me|_c[0]                ; math_expression:me|cx3_plus_1[2]        ; 0.741             ;
-; math_expression:me|_a[3]                ; math_expression:me|a_minus_b[4]         ; 0.641             ;
-; math_expression:me|_b[3]                ; math_expression:me|a_minus_b[4]         ; 0.641             ;
-; math_expression:me|_a[2]                ; math_expression:me|a_minus_b[4]         ; 0.641             ;
-; math_expression:me|_b[2]                ; math_expression:me|a_minus_b[4]         ; 0.641             ;
-; math_expression:me|_a[1]                ; math_expression:me|a_minus_b[4]         ; 0.641             ;
-; math_expression:me|_b[1]                ; math_expression:me|a_minus_b[4]         ; 0.641             ;
-; math_expression:me|_a[0]                ; math_expression:me|a_minus_b[4]         ; 0.641             ;
-; math_expression:me|_b[0]                ; math_expression:me|a_minus_b[4]         ; 0.641             ;
-; math_expression:me|_c[3]                ; math_expression:me|cx3_plus_1[4]        ; 0.630             ;
-; uart:uart_inst|fifo:rx_fifo|state.PROC  ; uart:uart_inst|fifo:rx_fifo|state.EMPTY ; 0.585             ;
-; uart:uart_inst|fifo:rx_fifo|mem~44      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~52      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~36      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~60      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~46      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~54      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~38      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~62      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~47      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~55      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~39      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~63      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~45      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~53      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~37      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~61      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~20      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~12      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~4       ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~28      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~22      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~14      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~6       ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~30      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~23      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~15      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~7       ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~31      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~21      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~13      ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~5       ; start                                   ; 0.396             ;
-; uart:uart_inst|fifo:rx_fifo|mem~29      ; start                                   ; 0.396             ;
-+-----------------------------------------+-----------------------------------------+-------------------+
-Note: This table only shows the top 100 path(s) that have the largest delay added for hold.
++------------------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                                                                ;
++-------------------------------------------------------+--------------------------------------------------+-------------------+
+; Source Register                                       ; Destination Register                             ; Delay Added in ns ;
++-------------------------------------------------------+--------------------------------------------------+-------------------+
+; reset                                                 ; bin2bcd:conv|bin_reg[0]~_emulated                ; 3.177             ;
+; bin2bcd:conv|bin_reg[0]~_emulated                     ; bin2bcd:conv|bin_reg[0]~_emulated                ; 1.582             ;
+; bin2bcd:conv|bin_reg[0]~53                            ; bin2bcd:conv|bin_reg[0]~_emulated                ; 1.582             ;
+; math_expression:me|q[0]                               ; bin2bcd:conv|bin_reg[0]~_emulated                ; 1.582             ;
+; bin2bcd:conv|bin_reg[2]~_emulated                     ; bin2bcd:conv|bin_reg[3]~_emulated                ; 1.279             ;
+; bin2bcd:conv|bin_reg[3]~_emulated                     ; bin2bcd:conv|bin_reg[4]~_emulated                ; 1.279             ;
+; bin2bcd:conv|bin_reg[2]~45                            ; bin2bcd:conv|bin_reg[3]~_emulated                ; 1.279             ;
+; bin2bcd:conv|bin_reg[3]~41                            ; bin2bcd:conv|bin_reg[4]~_emulated                ; 1.279             ;
+; math_expression:me|q[10]                              ; bin2bcd:conv|bin_reg[3]~_emulated                ; 1.279             ;
+; math_expression:me|q[3]                               ; bin2bcd:conv|bin_reg[4]~_emulated                ; 1.279             ;
+; math_expression:me|q[2]                               ; bin2bcd:conv|bin_reg[3]~_emulated                ; 1.279             ;
+; math_expression:me|q[1]                               ; bin2bcd:conv|bin_reg[3]~_emulated                ; 1.279             ;
+; bin2bcd:conv|bin_reg[6]~_emulated                     ; bin2bcd:conv|bin_reg[7]~_emulated                ; 1.273             ;
+; bin2bcd:conv|bin_reg[6]~29                            ; bin2bcd:conv|bin_reg[7]~_emulated                ; 1.273             ;
+; math_expression:me|q[6]                               ; bin2bcd:conv|bin_reg[7]~_emulated                ; 1.273             ;
+; math_expression:me|q[5]                               ; bin2bcd:conv|bin_reg[7]~_emulated                ; 1.273             ;
+; math_expression:me|q[4]                               ; bin2bcd:conv|bin_reg[7]~_emulated                ; 1.273             ;
+; bin2bcd:conv|bin_reg[8]~_emulated                     ; bin2bcd:conv|bin_reg[9]~_emulated                ; 1.266             ;
+; bin2bcd:conv|bin_reg[8]~21                            ; bin2bcd:conv|bin_reg[9]~_emulated                ; 1.266             ;
+; math_expression:me|q[8]                               ; bin2bcd:conv|bin_reg[9]~_emulated                ; 1.266             ;
+; math_expression:me|q[7]                               ; bin2bcd:conv|bin_reg[9]~_emulated                ; 1.266             ;
+; bin2bcd:conv|bin_reg[5]~_emulated                     ; bin2bcd:conv|bin_reg[6]~_emulated                ; 1.253             ;
+; bin2bcd:conv|bin_reg[5]~33                            ; bin2bcd:conv|bin_reg[6]~_emulated                ; 1.253             ;
+; bin2bcd:conv|bin_reg[4]~_emulated                     ; bin2bcd:conv|bin_reg[5]~_emulated                ; 1.221             ;
+; bin2bcd:conv|bin_reg[4]~37                            ; bin2bcd:conv|bin_reg[5]~_emulated                ; 1.221             ;
+; start                                                 ; math_expression:me|valid_in                      ; 1.192             ;
+; math_expression:me|valid_in                           ; math_expression:me|valid_stage_1                 ; 1.192             ;
+; math_expression:me|valid_stage_1                      ; math_expression:me|valid_stage_2                 ; 1.192             ;
+; math_expression:me|valid_stage_2                      ; math_expression:me|valid                         ; 1.192             ;
+; math_expression:me|dx4[5]                             ; math_expression:me|temp[5]                       ; 1.180             ;
+; math_expression:me|dx4[3]                             ; math_expression:me|temp[3]                       ; 1.180             ;
+; math_expression:me|dx4[2]                             ; math_expression:me|temp[2]                       ; 1.180             ;
+; math_expression:me|dx4[4]                             ; math_expression:me|temp[4]                       ; 1.173             ;
+; c[2]                                                  ; math_expression:me|_c[2]                         ; 1.173             ;
+; b[1]                                                  ; math_expression:me|_b[1]                         ; 1.173             ;
+; bin2bcd:conv|bin_reg[1]~_emulated                     ; bin2bcd:conv|bin_reg[2]~_emulated                ; 1.144             ;
+; bin2bcd:conv|bin_reg[1]~49                            ; bin2bcd:conv|bin_reg[2]~_emulated                ; 1.144             ;
+; bin2bcd:conv|bin_reg[7]~_emulated                     ; bin2bcd:conv|bin_reg[8]~_emulated                ; 1.125             ;
+; bin2bcd:conv|bin_reg[7]~25                            ; bin2bcd:conv|bin_reg[8]~_emulated                ; 1.125             ;
+; bin2bcd:conv|bin_reg[15]~1                            ; bin2bcd:conv|bcd0[0]                             ; 1.102             ;
+; bin2bcd:conv|bin_reg[15]~_emulated                    ; bin2bcd:conv|bcd0[0]                             ; 1.102             ;
+; math_expression:me|q[9]                               ; bin2bcd:conv|bcd0[0]                             ; 1.102             ;
+; a[2]                                                  ; math_expression:me|_a[2]                         ; 1.097             ;
+; a[0]                                                  ; math_expression:me|_a[0]                         ; 1.097             ;
+; d[3]                                                  ; math_expression:me|_d[3]                         ; 1.090             ;
+; math_expression:me|_d[3]                              ; math_expression:me|dx4[5]                        ; 1.090             ;
+; d[2]                                                  ; math_expression:me|_d[2]                         ; 1.090             ;
+; math_expression:me|_d[2]                              ; math_expression:me|dx4[4]                        ; 1.090             ;
+; d[1]                                                  ; math_expression:me|_d[1]                         ; 1.090             ;
+; math_expression:me|_d[1]                              ; math_expression:me|dx4[3]                        ; 1.090             ;
+; d[0]                                                  ; math_expression:me|_d[0]                         ; 1.090             ;
+; math_expression:me|_d[0]                              ; math_expression:me|dx4[2]                        ; 1.090             ;
+; c[3]                                                  ; math_expression:me|_c[3]                         ; 1.084             ;
+; c[1]                                                  ; math_expression:me|_c[1]                         ; 1.084             ;
+; c[0]                                                  ; math_expression:me|_c[0]                         ; 1.084             ;
+; bin2bcd:conv|bin_reg[14]~_emulated                    ; bin2bcd:conv|bin_reg[15]~_emulated               ; 1.017             ;
+; bin2bcd:conv|bin_reg[11]~_emulated                    ; bin2bcd:conv|bin_reg[12]~_emulated               ; 1.014             ;
+; bin2bcd:conv|bin_reg[12]~_emulated                    ; bin2bcd:conv|bin_reg[13]~_emulated               ; 1.014             ;
+; bin2bcd:conv|bin_reg[13]~_emulated                    ; bin2bcd:conv|bin_reg[14]~_emulated               ; 1.014             ;
+; b[3]                                                  ; math_expression:me|_b[3]                         ; 1.013             ;
+; b[2]                                                  ; math_expression:me|_b[2]                         ; 1.013             ;
+; b[0]                                                  ; math_expression:me|_b[0]                         ; 1.013             ;
+; a[3]                                                  ; math_expression:me|_a[3]                         ; 1.008             ;
+; a[1]                                                  ; math_expression:me|_a[1]                         ; 1.008             ;
+; bin2bcd:conv|bin_reg[10]~_emulated                    ; bin2bcd:conv|bin_reg[11]~_emulated               ; 0.869             ;
+; bin2bcd:conv|bin_reg[10]~13                           ; bin2bcd:conv|bin_reg[11]~_emulated               ; 0.869             ;
+; bin2bcd:conv|bin_reg[9]~_emulated                     ; bin2bcd:conv|bin_reg[10]~_emulated               ; 0.856             ;
+; bin2bcd:conv|bin_reg[9]~17                            ; bin2bcd:conv|bin_reg[10]~_emulated               ; 0.856             ;
+; math_expression:me|_c[0]                              ; math_expression:me|cx3_plus_1[0]                 ; 0.673             ;
+; math_expression:me|_c[3]                              ; math_expression:me|cx3_plus_1[3]                 ; 0.673             ;
+; math_expression:me|_c[2]                              ; math_expression:me|cx3_plus_1[3]                 ; 0.673             ;
+; math_expression:me|_c[1]                              ; math_expression:me|cx3_plus_1[3]                 ; 0.673             ;
+; math_expression:me|_a[3]                              ; math_expression:me|a_minus_b[4]                  ; 0.673             ;
+; math_expression:me|_b[3]                              ; math_expression:me|a_minus_b[4]                  ; 0.673             ;
+; math_expression:me|_a[2]                              ; math_expression:me|a_minus_b[4]                  ; 0.673             ;
+; math_expression:me|_b[2]                              ; math_expression:me|a_minus_b[4]                  ; 0.673             ;
+; math_expression:me|_a[1]                              ; math_expression:me|a_minus_b[4]                  ; 0.673             ;
+; math_expression:me|_b[1]                              ; math_expression:me|a_minus_b[4]                  ; 0.673             ;
+; math_expression:me|_a[0]                              ; math_expression:me|a_minus_b[4]                  ; 0.673             ;
+; math_expression:me|_b[0]                              ; math_expression:me|a_minus_b[4]                  ; 0.673             ;
+; uart:uart_inst|uart_rx:rx_inst|division:divide|quo[2] ; uart:uart_inst|rx_specific_counter:counter|_m[2] ; 0.041             ;
+; uart:uart_inst|uart_rx:rx_inst|division:divide|quo[6] ; uart:uart_inst|rx_specific_counter:counter|_m[6] ; 0.041             ;
++-------------------------------------------------------+--------------------------------------------------+-------------------+
+Note: This table only shows the top 82 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (119006): Selected device 10M50DAF484C7G for design "test"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -2123,30 +2102,14 @@ Info (12825): Data[1]/ASDO dual-purpose pin not reserved
 Info (12825): nCSO dual-purpose pin not reserved
 Info (12825): DCLK dual-purpose pin not reserved
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
-Warning (335093): The Timing Analyzer is analyzing 17 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Warning (335093): The Timing Analyzer is analyzing 12 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'test.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node clk~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 15
+Info (176353): Automatically promoted node clk~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/hellowhandsome/newproj/temporary/src/top.v Line: 15
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G19
-    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|state.EMPTY File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 19
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|mem~44 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 24
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|read_addr[0] File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 40
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|mem~52 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 24
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|read_addr[1] File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 40
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|mem~36 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 24
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|mem~60 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 24
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|mem~46 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 24
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|mem~54 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 24
-        Info (176357): Destination node uart:uart_inst|fifo:rx_fifo|mem~38 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/uart/fifo.v Line: 24
-        Info (176358): Non-global destination nodes limited to 10 nodes
-Info (176353): Automatically promoted node enable[0]~3  File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
-    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node enable[2] File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 42
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176218): Packed 11 registers into blocks of type Embedded multiplier block
@@ -2156,33 +2119,33 @@ Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:03
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:02
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 5% of the available device resources in the region that extends from location X45_Y44 to location X55_Y54
+    Info (170196): Router estimated peak interconnect usage is 7% of the available device resources in the region that extends from location X56_Y44 to location X66_Y54
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
-Info (11888): Total time spent on timing analysis during the Fitter is 1.06 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
+Info (11888): Total time spent on timing analysis during the Fitter is 0.99 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
 Warning (169177): 2 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin clk uses I/O standard 3.3-V LVTTL at P11 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 15
-    Info (169178): Pin rx uses I/O standard 3.3-V LVTTL at V9 File: C:/Users/user1111/Documents/DigitalDesign/temporary/src/top.v Line: 16
-Info (144001): Generated suppressed messages file C:/Users/user1111/Documents/DigitalDesign/temporary/output_files/test.fit.smsg
+    Info (169178): Pin clk uses I/O standard 3.3-V LVTTL at P11 File: C:/hellowhandsome/newproj/temporary/src/top.v Line: 15
+    Info (169178): Pin rx uses I/O standard 3.3-V LVTTL at V9 File: C:/hellowhandsome/newproj/temporary/src/top.v Line: 16
+Info (144001): Generated suppressed messages file C:/hellowhandsome/newproj/temporary/output_files/test.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 5796 megabytes
-    Info: Processing ended: Tue May  6 09:34:17 2025
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 5739 megabytes
+    Info: Processing ended: Tue May  6 15:52:46 2025
+    Info: Elapsed time: 00:01:12
+    Info: Total CPU time (on all processors): 00:01:18
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/user1111/Documents/DigitalDesign/temporary/output_files/test.fit.smsg.
+The suppressed messages can be found in C:/hellowhandsome/newproj/temporary/output_files/test.fit.smsg.
 
 

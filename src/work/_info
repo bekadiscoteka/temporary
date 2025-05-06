@@ -9,28 +9,28 @@ z2
 cModel Technology
 Z0 dC:/hellowhandsome/uart-banner/src
 vbcd2sseg_active_low
-Z1 !s110 1746501972
+Z1 !s110 1746549825
 !i10b 1
 !s100 ^?Sdc>Zm`PoO=F5A3`nNi0
-Ig<[g?[HclTDBbeC59kB[93
+I_alb>YR=Koi8I6go9:Q[:1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/user1111/Documents/DigitalDesign/temporary/src
-Z4 w1746501329
-8bcd2sseg_active_low.v
-Fbcd2sseg_active_low.v
+Z3 dC:/hellowhandsome/newproj/temporary/src
+Z4 w1746527744
+8top_support_files/bcd2sseg_active_low.v
+Ftop_support_files/bcd2sseg_active_low.v
 L0 3
 Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1746501972.000000
-Z7 !s107 design.v|bin2bcd.v|bcd2sseg_active_low.v|top.v|uart\fifo.v|uart\m_counter.v|uart\uart_tx.v|uart\division.v|uart\uart_rx.v|uart/uart.v|bcd_shift_register.v|clk_div_26bit.v|tb.v|
+Z6 !s108 1746549825.000000
+Z7 !s107 design.v|top_support_files/bin2bcd.v|top_support_files/bcd2sseg_active_low.v|top.v|uart\fifo.v|uart\m_counter.v|uart\uart_tx.v|uart\division.v|uart\uart_rx.v|uart/uart.v|tb.v|
 Z8 !s90 -reportprogress|300|-work|work|tb.v|
 !i113 1
 Z9 o-work work
 Z10 tCvgOpt 0
 vbcd_shift_register
-R1
+Z11 !s110 1746528399
 !i10b 1
 !s100 oiY=2>iMKcTP=UIglfbEj2
 I<9Ei?1;A]=MRm@Y]d59WK3
@@ -44,8 +44,8 @@ R5
 r1
 !s85 0
 31
-R6
-R7
+Z12 !s108 1746528399.000000
+Z13 !s107 design.v|bin2bcd.v|bcd2sseg_active_low.v|top.v|uart\fifo.v|uart\m_counter.v|uart\uart_tx.v|uart\division.v|uart\uart_rx.v|uart/uart.v|bcd_shift_register.v|clk_div_26bit.v|tb.v|
 R8
 !i113 1
 R9
@@ -54,12 +54,12 @@ vbin2bcd
 R1
 !i10b 1
 !s100 oc4bGfJlH1k8;3SIKJQIa2
-IL3mb[DM8WzW4FI5:mOQ:T1
+IAFO3`3UbAm3^D>i>g[VaC1
 R2
 R3
 R4
-8bin2bcd.v
-Fbin2bcd.v
+8top_support_files/bin2bcd.v
+Ftop_support_files/bin2bcd.v
 L0 3
 R5
 r1
@@ -72,7 +72,7 @@ R8
 R9
 R10
 vclk_div_26bit
-R1
+R11
 !i10b 1
 !s100 KVn?4Fd6SRe2T6FekMXdO2
 I8SG5GoX2dCRScSg8k:0j_2
@@ -86,8 +86,8 @@ R5
 r1
 !s85 0
 31
-R6
-R7
+R12
+R13
 R8
 !i113 1
 R9
@@ -95,14 +95,14 @@ R10
 vclk_generate
 R1
 !i10b 1
-!s100 UJPU@hIX9US3@F7a9b<Tj2
-I@T<f_>T]`FTnz66kd]3ZL2
+!s100 1n8Yj^A`oe:ez@@bMKMg=3
+IR@Z8_R4ZCS9DX6C]4TbZ_0
 R2
 R3
-R4
-Z11 8tb.v
-Z12 Ftb.v
-L0 7
+Z14 w1746549360
+Z15 8tb.v
+Z16 Ftb.v
+L0 5
 R5
 r1
 !s85 0
@@ -120,7 +120,7 @@ R1
 ITEC20Jz39L1EP?VD1BaWC1
 R2
 R3
-R4
+w1746549587
 8uart\division.v
 Fuart\division.v
 L0 7
@@ -198,7 +198,7 @@ R8
 R9
 R10
 vserial2parallel
-Z13 !s110 1745521064
+Z17 !s110 1745521064
 !i10b 1
 !s100 8]`6jaMY8DYhC6kbXUo1@3
 IGAiC>SBXADX6g=QlT;:9O3
@@ -212,14 +212,14 @@ R5
 r1
 !s85 0
 31
-Z14 !s108 1745521063.000000
-Z15 !s107 serial2parallel.v|signal_decoder.v|bcd2sseg_active_low.v|top.v|uart\fifo.v|uart\m_counter.v|uart\uart_tx.v|uart\division.v|uart\uart_rx.v|uart/uart.v|bcd_shift_register.v|clk_div_26bit.v|tb.v|
+Z18 !s108 1745521063.000000
+Z19 !s107 serial2parallel.v|signal_decoder.v|bcd2sseg_active_low.v|top.v|uart\fifo.v|uart\m_counter.v|uart\uart_tx.v|uart\division.v|uart\uart_rx.v|uart/uart.v|bcd_shift_register.v|clk_div_26bit.v|tb.v|
 R8
 !i113 1
 R9
 R10
 vsignal_decoder
-R13
+R17
 !i10b 1
 !s100 aZ05L78J`o=ddH4J@g8380
 I>j<hSU;bgMkZI4?7L_dh<3
@@ -233,8 +233,8 @@ R5
 r1
 !s85 0
 31
-R14
-R15
+R18
+R19
 R8
 !i113 1
 R9
@@ -242,14 +242,14 @@ R10
 vstimulus
 R1
 !i10b 1
-!s100 :dl>G:=_[KX8IYTEO_WDZ2
-IUabU30GO0G=jb5o3Y@eaO0
+!s100 `@G03_Z[<00;5`heZ`DKO0
+IPm[Z2^lInYWN1PEm`E>9H3
 R2
 R3
-R4
-R11
-R12
-L0 18
+R14
+R15
+R16
+L0 16
 R5
 r1
 !s85 0
@@ -263,11 +263,11 @@ R10
 vtop
 R1
 !i10b 1
-!s100 7H5^?Jg=e8ERc=KciAKTQ0
-Ie;gj0SPOn8PK3KS^d5E>d1
+!s100 igDmiS6l`H4SfWce0[AP=1
+I2DMN77N40bz>J51b7]h9k2
 R2
 R3
-w1746501963
+w1746549478
 8top.v
 Ftop.v
 L0 5
@@ -288,7 +288,7 @@ R1
 I0b=9g5KIe=AK]ij3Q_M?O1
 R2
 R3
-R4
+w1746549812
 8uart/uart.v
 Fuart/uart.v
 L0 7

@@ -1,10 +1,8 @@
 # do work.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:26:12 on May 06,2025
+# Start time: 21:43:45 on May 06,2025
 # vlog -reportprogress 300 -work work tb.v 
-# -- Compiling module clk_div_26bit
-# -- Compiling module bcd_shift_register
 # -- Compiling module division
 # -- Compiling module uart_rx
 # -- Compiling module uart_tx
@@ -19,13 +17,11 @@
 # -- Compiling module stimulus
 # 
 # Top level modules:
-# 	clk_div_26bit
-# 	bcd_shift_register
 # 	stimulus
-# End time: 09:26:12 on May 06,2025, Elapsed time: 0:00:00
+# End time: 21:43:45 on May 06,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.stimulus 
-# Start time: 09:26:12 on May 06,2025
+# Start time: 21:43:45 on May 06,2025
 # Loading work.stimulus
 # Loading work.uart
 # Loading work.rx_specific_counter
@@ -38,17 +34,17 @@
 # Loading work.bin2bcd
 # Loading work.bcd2sseg_active_low
 # Loading work.clk_generate
-# ** Warning: (vsim-3017) tb.v(24): [TFMPC] - Too few port connections. Expected 14, found 5.
+# ** Warning: (vsim-3017) tb.v(22): [TFMPC] - Too few port connections. Expected 14, found 5.
 #    Time: 0 ns  Iteration: 0  Instance: /stimulus/uart_inst File: uart/uart.v
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'data_out'.
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'tx_full'.
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'tx_empty'.
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'rx_full'.
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'rx_empty'.
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'rx_done_tick'.
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'ready'.
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'rd_data'.
-# ** Warning: (vsim-3722) tb.v(24): [TFMPC] - Missing connection for port 'rx'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'tx_full'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'tx_empty'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'rx_full'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'rx_empty'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'rx_done_tick'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'ready'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'rd_data'.
+# ** Warning: (vsim-3722) tb.v(22): [TFMPC] - Missing connection for port 'rx'.
 # ** Warning: (vsim-3017) uart/uart.v(35): [TFMPC] - Too few port connections. Expected 6, found 5.
 #    Time: 0 ns  Iteration: 0  Instance: /stimulus/uart_inst/counter File: uart/m_counter.v
 # ** Warning: (vsim-3722) uart/uart.v(35): [TFMPC] - Missing connection for port 'counter'.
@@ -56,23 +52,23 @@
 #    Time: 0 ns  Iteration: 0  Instance: /stimulus/uart_inst/rx_inst/divide File: uart/division.v
 # ** Warning: (vsim-3722) uart/uart_rx.v(34): [TFMPC] - Missing connection for port 'rmd'.
 # ** Warning: (vsim-3722) uart/uart_rx.v(34): [TFMPC] - Missing connection for port 'ready'.
-# ** Warning: (vsim-3017) tb.v(32): [TFMPC] - Too few port connections. Expected 12, found 4.
+# ** Warning: (vsim-3017) tb.v(30): [TFMPC] - Too few port connections. Expected 12, found 4.
 #    Time: 0 ns  Iteration: 0  Instance: /stimulus/top File: top.v
-# ** Warning: (vsim-3722) tb.v(32): [TFMPC] - Missing connection for port 'sseg3'.
-# ** Warning: (vsim-3722) tb.v(32): [TFMPC] - Missing connection for port 'sseg2'.
-# ** Warning: (vsim-3722) tb.v(32): [TFMPC] - Missing connection for port 'sseg1'.
-# ** Warning: (vsim-3722) tb.v(32): [TFMPC] - Missing connection for port 'sseg0'.
-# ** Warning: (vsim-3722) tb.v(32): [TFMPC] - Missing connection for port 'sseg5'.
-# ** Warning: (vsim-3722) tb.v(32): [TFMPC] - Missing connection for port 'sseg4'.
-# ** Warning: (vsim-3722) tb.v(32): [TFMPC] - Missing connection for port 'tx'.
-# ** Warning: (vsim-3722) tb.v(32): [TFMPC] - Missing connection for port 'ind'.
-# ** Warning: (vsim-3017) top.v(25): [TFMPC] - Too few port connections. Expected 14, found 9.
+# ** Warning: (vsim-3722) tb.v(30): [TFMPC] - Missing connection for port 'sseg3'.
+# ** Warning: (vsim-3722) tb.v(30): [TFMPC] - Missing connection for port 'sseg2'.
+# ** Warning: (vsim-3722) tb.v(30): [TFMPC] - Missing connection for port 'sseg1'.
+# ** Warning: (vsim-3722) tb.v(30): [TFMPC] - Missing connection for port 'sseg0'.
+# ** Warning: (vsim-3722) tb.v(30): [TFMPC] - Missing connection for port 'sseg5'.
+# ** Warning: (vsim-3722) tb.v(30): [TFMPC] - Missing connection for port 'sseg4'.
+# ** Warning: (vsim-3722) tb.v(30): [TFMPC] - Missing connection for port 'tx'.
+# ** Warning: (vsim-3722) tb.v(30): [TFMPC] - Missing connection for port 'ind'.
+# ** Warning: (vsim-3017) top.v(27): [TFMPC] - Too few port connections. Expected 14, found 9.
 #    Time: 0 ns  Iteration: 0  Instance: /stimulus/top/uart_inst File: uart/uart.v
-# ** Warning: (vsim-3722) top.v(25): [TFMPC] - Missing connection for port 'tx_full'.
-# ** Warning: (vsim-3722) top.v(25): [TFMPC] - Missing connection for port 'tx_empty'.
-# ** Warning: (vsim-3722) top.v(25): [TFMPC] - Missing connection for port 'rx_full'.
-# ** Warning: (vsim-3722) top.v(25): [TFMPC] - Missing connection for port 'rx_done_tick'.
-# ** Warning: (vsim-3722) top.v(25): [TFMPC] - Missing connection for port 'wr_data'.
+# ** Warning: (vsim-3722) top.v(27): [TFMPC] - Missing connection for port 'tx_full'.
+# ** Warning: (vsim-3722) top.v(27): [TFMPC] - Missing connection for port 'tx_empty'.
+# ** Warning: (vsim-3722) top.v(27): [TFMPC] - Missing connection for port 'rx_full'.
+# ** Warning: (vsim-3722) top.v(27): [TFMPC] - Missing connection for port 'rx_done_tick'.
+# ** Warning: (vsim-3722) top.v(27): [TFMPC] - Missing connection for port 'wr_data'.
 # ** Warning: (vsim-3017) uart/uart.v(35): [TFMPC] - Too few port connections. Expected 6, found 5.
 #    Time: 0 ns  Iteration: 0  Instance: /stimulus/top/uart_inst/counter File: uart/m_counter.v
 # ** Warning: (vsim-3722) uart/uart.v(35): [TFMPC] - Missing connection for port 'counter'.
@@ -80,15 +76,15 @@
 #    Time: 0 ns  Iteration: 0  Instance: /stimulus/top/uart_inst/rx_inst/divide File: uart/division.v
 # ** Warning: (vsim-3722) uart/uart_rx.v(34): [TFMPC] - Missing connection for port 'rmd'.
 # ** Warning: (vsim-3722) uart/uart_rx.v(34): [TFMPC] - Missing connection for port 'ready'.
-# ** Warning: (vsim-3017) top.v(144): [TFMPC] - Too few port connections. Expected 12, found 9.
-#    Time: 0 ns  Iteration: 0  Instance: /stimulus/top/conv File: bin2bcd.v
-# ** Warning: (vsim-3722) top.v(144): [TFMPC] - Missing connection for port 'ready'.
-# ** Warning: (vsim-3722) top.v(144): [TFMPC] - Missing connection for port 'bcd5'.
-# ** Warning: (vsim-3722) top.v(144): [TFMPC] - Missing connection for port 'bcd4'.
-# ** Warning: (vsim-3017) top.v(172): [TFMPC] - Too few port connections. Expected 12, found 10.
-#    Time: 0 ns  Iteration: 0  Instance: /stimulus/top/bcd2ssg File: bcd2sseg_active_low.v
-# ** Warning: (vsim-3722) top.v(172): [TFMPC] - Missing connection for port 'sseg5'.
-# ** Warning: (vsim-3722) top.v(172): [TFMPC] - Missing connection for port 'sseg4'.
+# ** Warning: (vsim-3017) top.v(125): [TFMPC] - Too few port connections. Expected 12, found 9.
+#    Time: 0 ns  Iteration: 0  Instance: /stimulus/top/conv File: top_support_files/bin2bcd.v
+# ** Warning: (vsim-3722) top.v(125): [TFMPC] - Missing connection for port 'ready'.
+# ** Warning: (vsim-3722) top.v(125): [TFMPC] - Missing connection for port 'bcd5'.
+# ** Warning: (vsim-3722) top.v(125): [TFMPC] - Missing connection for port 'bcd4'.
+# ** Warning: (vsim-3017) top.v(155): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ns  Iteration: 0  Instance: /stimulus/top/bcd2ssg File: top_support_files/bcd2sseg_active_low.v
+# ** Warning: (vsim-3722) top.v(155): [TFMPC] - Missing connection for port 'sseg5'.
+# ** Warning: (vsim-3722) top.v(155): [TFMPC] - Missing connection for port 'sseg4'.
 # cycle per byte:       5215
 #    0
 #    0
@@ -137,9 +133,7 @@
 # math expr is done
 # waiting for done
 # done is here
-# ** Note: $finish    : tb.v(97)
-#    Time: 34163630 ns  Iteration: 0  Instance: /stimulus
-# 1
-# Break in Module stimulus at tb.v line 97
-# End time: 09:39:59 on May 06,2025, Elapsed time: 0:13:47
+# Break key hit
+# Simulation stop requested.
+# End time: 21:44:20 on May 06,2025, Elapsed time: 0:00:35
 # Errors: 0, Warnings: 42
